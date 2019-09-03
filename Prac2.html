@@ -1,0 +1,1348 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<HEAD>
+
+<TITLE> Resumen Leccion 1 </TITLE>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/
+</HEAD>
+
+<BODY style="background-color:white;">
+ <body bgcolor="#CCCC66";>
+        <div class="agrupar">
+                <header class="cabecera">
+                        <center><h1>Laboratorio Programación Web</h1></center>
+                </header>
+                <nav class="menu">
+                    <ul>
+                        <table align="center" width="99" border="1">
+  <tr>
+    <td width="89"><a href="index.html"><center>Principal</center></a></td>
+  </tr>
+</table>
+ <table align="right" width="99" border="1">
+  <tr>
+    <td width="89"><a href="AunNoHayActividad.html"><center>Página 3</center></a></td>
+  </tr>
+</table>
+<table align="left" width="99" border="1">
+  <tr>
+    <td width="89"><a href="Prac1.html"><center>Página 1</center></a></td>
+  </tr>
+</table>
+
+<H1 style="color:#d39d17"> Definicion de HTML</H1>
+
+<h3  style="text-align: justify; margin-top: 20px;" >HTML5 es una combinación de nuevas etiquetas de markup (lenguaje) HTML, propiedades CSS3, JavaScript y algunas tecnologías complementarias de apoyo, pero que técnicamente son independientes de la propia especificación HTML5.</H3>
+<h3>Podemos definir la especificación HTML5 como nuevos elementos de markup o sintaxis, utilizados por los diseñadores para crear páginas web junto con las etiquetas utilizadas a día de hoy. 
+    Muchos de estos nuevos elementos ya son conocidos para los diseñadores que trabajan con las etiquetas HTML tradicionales, como < p >, < ul > o < div >. 
+	Estas nuevas etiquetas suponen para desarrolladores y diseñadores, unas herramientas más avanzadas y se traducen en mejores experiencias para el usuario final.</h3>
+<h3>La familia HTML5 incluye las nuevas etiquetas y tecnologías como CSS3, Geolocalización, Almacenamiento Web (Web Storage), Web Workers y Web Sockets entre otras. 
+  Todas ellas suponen una actualización de gran potencia al conjunto de herramientas ya existente, y con ellas se pueden crear páginas web más sofisticadas y útiles.</h3>
+<h3>A medida que las aplicaciones web van ganando en capacidad de respuesta y velocidad y son capaces de resolver tareas complejas como la edición de imágenes, representación de mapas, hojas de cálculo o vídeos, los usuarios ya exigen este mismo nivel de rendimiento en todas las aplicaciones de la web. 
+HTML5 aporta nuevas funcionalidades y herramientas con el fin de conseguir que los sitios web sean más interesantes, atractivos y útiles.
+</h3>  
+<h2 style="color:#d39d17; text-align: justify; margin-top: 20px;"  >La historia de HTML5<br></h2>
+<h3 style="text-align: justify; margin-top: 20px; ">HTML4, que se dio por cerrado en 1998, es el lenguaje de markup que conforma la base de la gran mayoría de las páginas web que podemos ver a día de hoy. 
+Tras la finalización de HTML 4.0.1, el W3C continuó sus trabajos en consonancia con la evolución de la web, y comenzó con un lenguaje llamado XHTML 1.0. 
+Uno de los objetivos de XHTML 1.0 era crear un lenguaje de markup que pudiera extenderse y resolver las necesidades de las tecnologías futuras, por ejemplo para los dispositivos móviles.<p></p>
+
+En 2004, un grupo de representantes de los principales fabricantes de navegadores y un grupo de trabajo de desarrolladores web formaron un grupo independiente llamado WHATWG.
+Durante unos dos años y medio el W3C y el grupo WHATWG trabajaron en paralelo y de manera independiente hasta que en 2006
+, Tim Berners-Lee, creador de la World Wide Web y fundador del W3C anunció que el W3C y WHATWG trabajarían juntos en la elaboración del estándar.
+Como resultado de todo ello, se abandonó el desarrollo de XHTML 2.0 y la especificación HTML 4.0 se reformó con el nombre HTML5.<br></h3>
+<h2 style="color:#d39d17; text-align: justify; margin-top: 20px;"  >HTML5 extiende la definición de lo que puede hacer una página web<br></h2>
+<h3 style="text-align: justify; margin-top: 20px;">A día de hoy HTML no tiene capacidad para reproducir contenidos multimedia, como audio o vídeo, sin un complemento (un "plug-in") como los de Adobe® Flash® o Microsoft® Silverlight®.Tampoco tiene capacidad para almacenar datos en el ordenador del usuario, esto se hace actualmente mediante un lenguaje de scripting o con alguna otra tecnología.
+<p></p>En general, cada vez más gente depende de la web y utiliza aplicaciones web y las expectativas que se generan alrededor de lo que puede (o podría) hacer una página web van creciendo día tras día.
+
+Esta demanda de los usuarios en favor de un mayor rendimiento y unos sitios web con prestaciones más avanzadas y completas se ve limitada por el lenguaje HTML que se utiliza actualmente.
+</h3>
+<H1 style="color:#d39d17"> El Lenguaje HTML5</H1>
+
+<h3  style="text-align: justify; margin-top: 20px;" >El lenguaje HTML5 agrega algunas etiquetas totalmente nuevas pensadas para hacer que la estructura de la página web sea más lógica y funcional. Antes de HTML5, la estructura de una página dependía fuertemente de las etiquetas div, las cuales eran asociadas a una clase CSS. </H3>
+<h3>HTML5 dispone de unos cuantos elementos nuevos aparte de éste, como  footer, nav, section, aside, y article. Estos nombres se basan en los que se vienen utilizando habitualmente para distinguir secciones dentro de las páginas web que vemos a diario (div id="footer", div id="nav", etc.). El objetivo de los nuevos elementos HTML5 no es otro que evitar una excesiva dependencia de las etiquetas div y sustituirlas por una estructura de página más consistente y legible. Como puedes ver, HTML5 no  sustituye ningún elemento de sintaxis de HTML.
+</h3>
+<h2 style="text-align: justify; margin-top: 20px;"  >Breve recorrido por los principales elementos de HTML5<br></h2>
+<h3  style="text-align: justify; margin-top: 20px; "> Los elementos video, audio y canvas<br></h3>
+<h3 style="text-align: justify; margin-top: 20px; "> La especificación HTML5 incluye etiquetas que nos permiten integrar contenidos multimedia sin necesidad de complementos de navegador. Las etiquetas video y audio sirven para integrar video y audio en las páginas web de la misma forma que actualmente se hace con los archivos de imagen utilizando la etiqueta img. La etiqueta canvas dota al lenguaje HTML de un formato nativo para el dibujo y la animación. Esta etiqueta puede servir, además, como plataforma alternativa para los gráficos y animaciones que a día de hoy podemos ver en películas Flash. No obstante, existen inconvenientes de cierta consideración que es preciso resolver.</h3>
+<h3 style="text-align: justify; margin-top: 20px;">
+Insertar un archivo de audio mp3 en la página se hace de forma similar. En el caso del audio y el vídeo podemos añadirle también controles de reproducción y la posibilidad de precarga, utilizando los atributos controls, preload, y autobuffer; Esta característica de HTML5 es muy útil si se compara con los métodos disponibles hasta ahora. Por ejemplo, para incorporar vídeo con Adobe Flash o Microsoft Silverlight es preciso añadir código de programación. Aparte, existe una amplia categoría de dispositivos móviles como los iPhone® de Apple® o Windows® Phone 7 que no soportan Flash o Silverlight, y en estos casos el elemento video de HTML5 es la principal alternativa. Aunque es de agradecer la simplificación que suponen las etiquetas video y audio, en seguida surge la pregunta de cómo vamos a hacer para manejar estos contenidos desde los navegadores anteriores que no reconocen estas etiquetas nuevas. 
+</h3>
+
+<h3 style="text-align: justify; margin-top: 20px;">
+El elemento canvas funciona a modo de superficie de dibujo dentro de una página web (de ahí le viene el nombre). Dentro de esta superficie de dibujo podemos crear formas con colores, gradientes y patrones de relleno. Podemos manipular los pixels de forma interactiva en pantalla, mostrar textos y exportar los contenidos hacia archivos de imagen estática, como .PNG. Podemos también utilizar JavaScript o las nuevas funciones de animación de CSS3 para que los objetos que creamos puedan moverse, desaparecer, cambiar de tamaño, etc. Incorporar un elemento canvas a una página es muy sencillo:
+</h3>
+<div class=WordSection1>
+
+<p class=MsoNormal style='text-align:justify'><b style='mso-bidi-font-weight:
+normal'><span style='font-size:18.0pt;line-height:107%;font-family:"Century Gothic",sans-serif;
+color:black;mso-themecolor:text1'>FORMULARIO WEB<o:p></o:p></span></b></p>
+
+<p style='margin-top:6.0pt;margin-right:0cm;margin-bottom:6.0pt;margin-left:
+0cm;text-align:justify;background:white'><span style='font-family:"Century Gothic",sans-serif;
+mso-bidi-font-family:Arial;color:black;mso-themecolor:text1'>Un&nbsp;<span
+style='mso-bidi-font-weight:bold'>formulario web</span>&nbsp;dentro de
+una&nbsp;<a href="https://es.wikipedia.org/wiki/P%C3%A1gina_web"
+title="Página web"><span style='color:black;mso-themecolor:text1;text-decoration:
+none;text-underline:none'>página web</span></a>&nbsp;permite al usuario
+introducir datos los cuales son enviados a un&nbsp;<a
+href="https://es.wikipedia.org/wiki/Servidor" title=Servidor><span
+style='color:black;mso-themecolor:text1;text-decoration:none;text-underline:
+none'>servidor</span></a>&nbsp;para ser procesados. Los formularios web se
+parecen a los&nbsp;<a href="https://es.wikipedia.org/wiki/Formulario"
+title=Formulario><span style='color:black;mso-themecolor:text1;text-decoration:
+none;text-underline:none'>formularios de papel</span></a>&nbsp;porque los
+internautas llenan dichos formularios usando&nbsp;<a
+href="https://es.wikipedia.org/wiki/Casilla_de_verificaci%C3%B3n"
+title="Casilla de verificación"><span style='color:black;mso-themecolor:text1;
+text-decoration:none;text-underline:none'>casillas de selección</span></a>,&nbsp;<a
+href="https://es.wikipedia.org/wiki/Bot%C3%B3n_de_opci%C3%B3n"
+title="Botón de opción"><span style='color:black;mso-themecolor:text1;
+text-decoration:none;text-underline:none'>botones de opción</span></a>, o
+campos de texto. Por ejemplo, los formularios web pueden ser usados para
+introducir datos de envío con el objetivo de solicitar un producto, o bien ser
+utilizados para solicitar datos (p. ej., al buscar en un&nbsp;<a
+href="https://es.wikipedia.org/wiki/Motor_de_b%C3%BAsqueda"
+title="Motor de búsqueda"><span style='color:black;mso-themecolor:text1;
+text-decoration:none;text-underline:none'>motor de búsqueda</span></a>).<o:p></o:p></span></p>
+
+<p style='margin-top:6.0pt;margin-right:0cm;margin-bottom:6.0pt;margin-left:
+0cm;text-align:justify;background:white;line-height:inherit;font-variant-ligatures: normal;
+font-variant-caps: normal;orphans: 2;text-align:start;widows: 2;-webkit-text-stroke-width: 0px;
+text-decoration-style: initial;text-decoration-color: initial;word-spacing:
+0px'><span style='font-family:"Century Gothic",sans-serif;mso-bidi-font-family:
+Arial;color:black;mso-themecolor:text1'>Además de servir como plantillas para
+nueva información, los formularios web también pueden ser usados para consultar
+y mostrar información existente en forma similar a los formularios de&nbsp;<a
+href="https://es.wikipedia.org/w/index.php?title=Combinaci%C3%B3n_de_correspondencia&amp;action=edit&amp;redlink=1"
+title="Combinación de correspondencia (aún no redactado)"><span
+style='color:black;mso-themecolor:text1;text-decoration:none;text-underline:
+none'>combinación de correspondencia</span></a>, incorporando las mismas
+ventajas. La separación entre la estructura y los datos subyacentes de un
+mensaje permite a ambos variar independientemente. El uso de formularios webs
+para este propósito evita los problemas asociados con la creación explícita de
+páginas web separadas para cada registro en una base de datos.<o:p></o:p></span></p>
+
+<p style='margin-top:6.0pt;margin-right:0cm;margin-bottom:6.0pt;margin-left:
+0cm;text-align:justify;background:white;line-height:inherit;font-variant-ligatures: normal;
+font-variant-caps: normal;orphans: 2;text-align:start;widows: 2;-webkit-text-stroke-width: 0px;
+text-decoration-style: initial;text-decoration-color: initial;word-spacing:
+0px'><span style='font-family:"Century Gothic",sans-serif;mso-bidi-font-family:
+Arial;color:black;mso-themecolor:text1'>Los formularios web están definidos en
+lenguajes de programación como&nbsp;<a href="https://es.wikipedia.org/wiki/HTML"
+title=HTML><span style='color:black;mso-themecolor:text1;text-decoration:none;
+text-underline:none'>HTML</span></a>,&nbsp;<a
+href="https://es.wikipedia.org/wiki/Perl" title=Perl><span style='color:black;
+mso-themecolor:text1;text-decoration:none;text-underline:none'>Perl</span></a>,&nbsp;<a
+href="https://es.wikipedia.org/wiki/Java_(lenguaje_de_programaci%C3%B3n)"
+title="Java (lenguaje de programación)"><span style='color:black;mso-themecolor:
+text1;text-decoration:none;text-underline:none'>Java</span></a>&nbsp;o&nbsp;<a
+href="https://es.wikipedia.org/wiki/Microsoft_.NET" title="Microsoft .NET"><span
+style='color:black;mso-themecolor:text1;text-decoration:none;text-underline:
+none'>.NET</span></a>. Las implementaciones de estos lenguajes usualmente
+invocan automáticamente los idiomas de la interfaz de usuario y otras de sus
+características, tales como el diseño estructural, y&nbsp;<a
+href="https://es.wikipedia.org/wiki/Skin_(software)" title="Skin (software)"><span
+style='color:black;mso-themecolor:text1;text-decoration:none;text-underline:
+none'>tema</span></a>, minimizando el tiempo, el costo y el tiempo de
+programación.<o:p></o:p></span></p>
+
+<p class=MsoNormal style='text-align:justify'><b style='mso-bidi-font-weight:
+normal'><span style='font-size:18.0pt;line-height:107%;font-family:"Century Gothic",sans-serif;
+color:black;mso-themecolor:text1'>NUEVOS ELEMENTOS HTML5<o:p></o:p></span></b></p>
+
+<p class=MsoNormal style='mso-margin-bottom-alt:auto;text-align:justify;
+line-height:normal'><span style='font-size:12.0pt;font-family:"Century Gothic",sans-serif;
+mso-fareast-font-family:"Times New Roman";mso-bidi-font-family:"Times New Roman";
+color:black;mso-themecolor:text1;mso-fareast-language:ES-MX'>HTML5 ofrece
+nuevos elementos para una mejor estructura:<o:p></o:p></span></p>
+
+<table class=MsoNormalTable border=1 cellpadding=0 width=0 style='width:494.25pt;
+ mso-cellspacing:1.5pt;margin-left:22.5pt;mso-yfti-tbllook:1184'>
+ <tr style='mso-yfti-irow:0;mso-yfti-firstrow:yes'>
+  <td width=110 style='width:62.25pt;padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal style='margin-top:22.5pt;margin-right:0cm;margin-bottom:
+  22.5pt;margin-left:0cm;text-align:justify;line-height:normal'><span
+  style='font-size:12.0pt;font-family:"Century Gothic",sans-serif;mso-fareast-font-family:
+  "Times New Roman";mso-bidi-font-family:"Times New Roman";color:black;
+  mso-themecolor:text1;mso-fareast-language:ES-MX;mso-bidi-font-weight:bold'>Etiqueta<o:p></o:p></span></p>
+  </td>
+  <td width=549 style='width:420.0pt;padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal style='margin-top:22.5pt;margin-right:0cm;margin-bottom:
+  22.5pt;margin-left:0cm;text-align:justify;line-height:normal'><span
+  style='font-size:12.0pt;font-family:"Century Gothic",sans-serif;mso-fareast-font-family:
+  "Times New Roman";mso-bidi-font-family:"Times New Roman";color:black;
+  mso-themecolor:text1;mso-fareast-language:ES-MX;mso-bidi-font-weight:bold'>Descripción<o:p></o:p></span></p>
+  </td>
+ </tr>
+ <tr style='mso-yfti-irow:1'>
+  <td style='padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal style='margin-top:22.5pt;margin-right:0cm;margin-bottom:
+  22.5pt;margin-left:0cm;text-align:justify;line-height:normal'><span
+  style='font-size:12.0pt;font-family:"Century Gothic",sans-serif;mso-fareast-font-family:
+  "Times New Roman";mso-bidi-font-family:"Times New Roman";color:black;
+  mso-themecolor:text1;mso-fareast-language:ES-MX'>&lt;<span class=SpellE><a
+  href="http://www.edu4java.com/es/web/html5-cuerpo-header.html"><span
+  style='color:black;mso-themecolor:text1;text-decoration:none;text-underline:
+  none'>header</span></a></span>&gt;<o:p></o:p></span></p>
+  </td>
+  <td style='padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal style='margin-top:22.5pt;margin-right:0cm;margin-bottom:
+  22.5pt;margin-left:0cm;text-align:justify;line-height:normal'><span
+  style='font-size:12.0pt;font-family:"Century Gothic",sans-serif;mso-fareast-font-family:
+  "Times New Roman";mso-bidi-font-family:"Times New Roman";color:black;
+  mso-themecolor:text1;mso-fareast-language:ES-MX'>Define el <span
+  class=SpellE>header</span> para un documento o una sección.<o:p></o:p></span></p>
+  </td>
+ </tr>
+ <tr style='mso-yfti-irow:2'>
+  <td style='padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal style='margin-top:22.5pt;margin-right:0cm;margin-bottom:
+  22.5pt;margin-left:0cm;text-align:justify;line-height:normal'><span
+  style='font-size:12.0pt;font-family:"Century Gothic",sans-serif;mso-fareast-font-family:
+  "Times New Roman";mso-bidi-font-family:"Times New Roman";color:black;
+  mso-themecolor:text1;mso-fareast-language:ES-MX'>&lt;<span class=SpellE><a
+  href="http://www.edu4java.com/es/web/html5-cuerpo-hgroup.html"><span
+  style='color:black;mso-themecolor:text1;text-decoration:none;text-underline:
+  none'>hgroup</span></a></span>&gt;<o:p></o:p></span></p>
+  </td>
+  <td style='padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal style='margin-top:22.5pt;margin-right:0cm;margin-bottom:
+  22.5pt;margin-left:0cm;text-align:justify;line-height:normal'><span
+  style='font-size:12.0pt;font-family:"Century Gothic",sans-serif;mso-fareast-font-family:
+  "Times New Roman";mso-bidi-font-family:"Times New Roman";color:black;
+  mso-themecolor:text1;mso-fareast-language:ES-MX'>Agrupa los elementos para el
+  encabezado.<o:p></o:p></span></p>
+  </td>
+ </tr>
+ <tr style='mso-yfti-irow:3'>
+  <td style='padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal style='margin-top:22.5pt;margin-right:0cm;margin-bottom:
+  22.5pt;margin-left:0cm;text-align:justify;line-height:normal'><span
+  style='font-size:12.0pt;font-family:"Century Gothic",sans-serif;mso-fareast-font-family:
+  "Times New Roman";mso-bidi-font-family:"Times New Roman";color:black;
+  mso-themecolor:text1;mso-fareast-language:ES-MX'>&lt;<span class=SpellE><a
+  href="http://www.edu4java.com/es/web/html5-cuerpo-nav.html"><span
+  style='color:black;mso-themecolor:text1;text-decoration:none;text-underline:
+  none'>nav</span></a></span>&gt;<o:p></o:p></span></p>
+  </td>
+  <td style='padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal style='margin-top:22.5pt;margin-right:0cm;margin-bottom:
+  22.5pt;margin-left:0cm;text-align:justify;line-height:normal'><span
+  style='font-size:12.0pt;font-family:"Century Gothic",sans-serif;mso-fareast-font-family:
+  "Times New Roman";mso-bidi-font-family:"Times New Roman";color:black;
+  mso-themecolor:text1;mso-fareast-language:ES-MX'>Define los enlaces de
+  navegación en un documento.<o:p></o:p></span></p>
+  </td>
+ </tr>
+ <tr style='mso-yfti-irow:4'>
+  <td style='padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal style='margin-top:22.5pt;margin-right:0cm;margin-bottom:
+  22.5pt;margin-left:0cm;text-align:justify;line-height:normal'><span
+  style='font-size:12.0pt;font-family:"Century Gothic",sans-serif;mso-fareast-font-family:
+  "Times New Roman";mso-bidi-font-family:"Times New Roman";color:black;
+  mso-themecolor:text1;mso-fareast-language:ES-MX'>&lt;<span class=SpellE><a
+  href="http://www.edu4java.com/es/web/html5-cuerpo-section.html"><span
+  style='color:black;mso-themecolor:text1;text-decoration:none;text-underline:
+  none'>section</span></a></span>&gt;<o:p></o:p></span></p>
+  </td>
+  <td style='padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal style='margin-top:22.5pt;margin-right:0cm;margin-bottom:
+  22.5pt;margin-left:0cm;text-align:justify;line-height:normal'><span
+  style='font-size:12.0pt;font-family:"Century Gothic",sans-serif;mso-fareast-font-family:
+  "Times New Roman";mso-bidi-font-family:"Times New Roman";color:black;
+  mso-themecolor:text1;mso-fareast-language:ES-MX'>Define una sección en el
+  documento.<o:p></o:p></span></p>
+  </td>
+ </tr>
+ <tr style='mso-yfti-irow:5'>
+  <td style='padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal style='margin-top:22.5pt;margin-right:0cm;margin-bottom:
+  22.5pt;margin-left:0cm;text-align:justify;line-height:normal'><span
+  style='font-size:12.0pt;font-family:"Century Gothic",sans-serif;mso-fareast-font-family:
+  "Times New Roman";mso-bidi-font-family:"Times New Roman";color:black;
+  mso-themecolor:text1;mso-fareast-language:ES-MX'>&lt;<span class=SpellE>main</span>&gt;<o:p></o:p></span></p>
+  </td>
+  <td style='padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal style='margin-top:22.5pt;margin-right:0cm;margin-bottom:
+  22.5pt;margin-left:0cm;text-align:justify;line-height:normal'><span
+  style='font-size:12.0pt;font-family:"Century Gothic",sans-serif;mso-fareast-font-family:
+  "Times New Roman";mso-bidi-font-family:"Times New Roman";color:black;
+  mso-themecolor:text1;mso-fareast-language:ES-MX'>Define el contenido
+  principal del documento.<o:p></o:p></span></p>
+  </td>
+ </tr>
+ <tr style='mso-yfti-irow:6'>
+  <td style='padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal style='margin-top:22.5pt;margin-right:0cm;margin-bottom:
+  22.5pt;margin-left:0cm;text-align:justify;line-height:normal'><span
+  style='font-size:12.0pt;font-family:"Century Gothic",sans-serif;mso-fareast-font-family:
+  "Times New Roman";mso-bidi-font-family:"Times New Roman";color:black;
+  mso-themecolor:text1;mso-fareast-language:ES-MX'>&lt;<span class=SpellE><a
+  href="http://www.edu4java.com/es/web/html5-cuerpo-article.html"><span
+  style='color:black;mso-themecolor:text1;text-decoration:none;text-underline:
+  none'>article</span></a></span>&gt;<o:p></o:p></span></p>
+  </td>
+  <td style='padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal style='margin-top:22.5pt;margin-right:0cm;margin-bottom:
+  22.5pt;margin-left:0cm;text-align:justify;line-height:normal'><span
+  style='font-size:12.0pt;font-family:"Century Gothic",sans-serif;mso-fareast-font-family:
+  "Times New Roman";mso-bidi-font-family:"Times New Roman";color:black;
+  mso-themecolor:text1;mso-fareast-language:ES-MX'>Define un artículo del
+  documento.<o:p></o:p></span></p>
+  </td>
+ </tr>
+ <tr style='mso-yfti-irow:7'>
+  <td style='padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal style='margin-top:22.5pt;margin-right:0cm;margin-bottom:
+  22.5pt;margin-left:0cm;text-align:justify;line-height:normal'><span
+  style='font-size:12.0pt;font-family:"Century Gothic",sans-serif;mso-fareast-font-family:
+  "Times New Roman";mso-bidi-font-family:"Times New Roman";color:black;
+  mso-themecolor:text1;mso-fareast-language:ES-MX'>&lt;<span class=SpellE><a
+  href="http://www.edu4java.com/es/web/html5-cuerpo-aside.html"><span
+  style='color:black;mso-themecolor:text1;text-decoration:none;text-underline:
+  none'>aside</span></a></span>&gt;<o:p></o:p></span></p>
+  </td>
+  <td style='padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal style='margin-top:22.5pt;margin-right:0cm;margin-bottom:
+  22.5pt;margin-left:0cm;text-align:justify;line-height:normal'><span
+  style='font-size:12.0pt;font-family:"Century Gothic",sans-serif;mso-fareast-font-family:
+  "Times New Roman";mso-bidi-font-family:"Times New Roman";color:black;
+  mso-themecolor:text1;mso-fareast-language:ES-MX'>Define contenido secundario
+  de la página.<o:p></o:p></span></p>
+  </td>
+ </tr>
+ <tr style='mso-yfti-irow:8'>
+  <td style='padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal style='margin-top:22.5pt;margin-right:0cm;margin-bottom:
+  22.5pt;margin-left:0cm;text-align:justify;line-height:normal'><span
+  style='font-size:12.0pt;font-family:"Century Gothic",sans-serif;mso-fareast-font-family:
+  "Times New Roman";mso-bidi-font-family:"Times New Roman";color:black;
+  mso-themecolor:text1;mso-fareast-language:ES-MX'>&lt;<span class=SpellE><a
+  href="http://www.edu4java.com/es/web/html5-cuerpo-footer.html"><span
+  style='color:black;mso-themecolor:text1;text-decoration:none;text-underline:
+  none'>footer</span></a></span>&gt;<o:p></o:p></span></p>
+  </td>
+  <td style='padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal style='margin-top:22.5pt;margin-right:0cm;margin-bottom:
+  22.5pt;margin-left:0cm;text-align:justify;line-height:normal'><span
+  style='font-size:12.0pt;font-family:"Century Gothic",sans-serif;mso-fareast-font-family:
+  "Times New Roman";mso-bidi-font-family:"Times New Roman";color:black;
+  mso-themecolor:text1;mso-fareast-language:ES-MX'>Define el pie del documento
+  o sección.<o:p></o:p></span></p>
+  </td>
+ </tr>
+ <tr style='mso-yfti-irow:9'>
+  <td style='padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal style='margin-top:22.5pt;margin-right:0cm;margin-bottom:
+  22.5pt;margin-left:0cm;text-align:justify;line-height:normal'><span
+  style='font-size:12.0pt;font-family:"Century Gothic",sans-serif;mso-fareast-font-family:
+  "Times New Roman";mso-bidi-font-family:"Times New Roman";color:black;
+  mso-themecolor:text1;mso-fareast-language:ES-MX'>&lt;<span class=SpellE>details</span>&gt;<o:p></o:p></span></p>
+  </td>
+  <td style='padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal style='margin-top:22.5pt;margin-right:0cm;margin-bottom:
+  22.5pt;margin-left:0cm;text-align:justify;line-height:normal'><span
+  style='font-size:12.0pt;font-family:"Century Gothic",sans-serif;mso-fareast-font-family:
+  "Times New Roman";mso-bidi-font-family:"Times New Roman";color:black;
+  mso-themecolor:text1;mso-fareast-language:ES-MX'>Define detalles adicionales
+  que el usuario puede ver o esconder.<o:p></o:p></span></p>
+  </td>
+ </tr>
+ <tr style='mso-yfti-irow:10'>
+  <td style='padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal style='margin-top:22.5pt;margin-right:0cm;margin-bottom:
+  22.5pt;margin-left:0cm;text-align:justify;line-height:normal'><span
+  style='font-size:12.0pt;font-family:"Century Gothic",sans-serif;mso-fareast-font-family:
+  "Times New Roman";mso-bidi-font-family:"Times New Roman";color:black;
+  mso-themecolor:text1;mso-fareast-language:ES-MX'>&lt;<span class=SpellE>summary</span>&gt;<o:p></o:p></span></p>
+  </td>
+  <td style='padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal style='margin-top:22.5pt;margin-right:0cm;margin-bottom:
+  22.5pt;margin-left:0cm;text-align:justify;line-height:normal'><span
+  style='font-size:12.0pt;font-family:"Century Gothic",sans-serif;mso-fareast-font-family:
+  "Times New Roman";mso-bidi-font-family:"Times New Roman";color:black;
+  mso-themecolor:text1;mso-fareast-language:ES-MX'>Define un encabezado visible
+  para un elemento &lt;<span class=SpellE>details</span>&gt;.<o:p></o:p></span></p>
+  </td>
+ </tr>
+ <tr style='mso-yfti-irow:11'>
+  <td style='padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal style='margin-top:22.5pt;margin-right:0cm;margin-bottom:
+  22.5pt;margin-left:0cm;text-align:justify;line-height:normal'><span
+  style='font-size:12.0pt;font-family:"Century Gothic",sans-serif;mso-fareast-font-family:
+  "Times New Roman";mso-bidi-font-family:"Times New Roman";color:black;
+  mso-themecolor:text1;mso-fareast-language:ES-MX'>&lt;<a
+  href="http://www.edu4java.com/es/web/html5-cuerpo-figure.html"><span
+  style='color:black;mso-themecolor:text1;text-decoration:none;text-underline:
+  none'>figure</span></a>&gt;<o:p></o:p></span></p>
+  </td>
+  <td style='padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal style='margin-top:22.5pt;margin-right:0cm;margin-bottom:
+  22.5pt;margin-left:0cm;text-align:justify;line-height:normal'><span
+  style='font-size:12.0pt;font-family:"Century Gothic",sans-serif;mso-fareast-font-family:
+  "Times New Roman";mso-bidi-font-family:"Times New Roman";color:black;
+  mso-themecolor:text1;mso-fareast-language:ES-MX'>Define un contenido
+  independiente, como una ilustración, diagrama, foto, etc.<o:p></o:p></span></p>
+  </td>
+ </tr>
+ <tr style='mso-yfti-irow:12'>
+  <td style='padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal style='margin-top:22.5pt;margin-right:0cm;margin-bottom:
+  22.5pt;margin-left:0cm;text-align:justify;line-height:normal'><span
+  style='font-size:12.0pt;font-family:"Century Gothic",sans-serif;mso-fareast-font-family:
+  "Times New Roman";mso-bidi-font-family:"Times New Roman";color:black;
+  mso-themecolor:text1;mso-fareast-language:ES-MX'>&lt;<span class=SpellE><a
+  href="http://www.edu4java.com/es/web/html5-cuerpo-figure.html"><span
+  style='color:black;mso-themecolor:text1;text-decoration:none;text-underline:
+  none'>figcaption</span></a></span>&gt;<o:p></o:p></span></p>
+  </td>
+  <td style='padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal style='margin-top:22.5pt;margin-right:0cm;margin-bottom:
+  22.5pt;margin-left:0cm;text-align:justify;line-height:normal'><span
+  style='font-size:12.0pt;font-family:"Century Gothic",sans-serif;mso-fareast-font-family:
+  "Times New Roman";mso-bidi-font-family:"Times New Roman";color:black;
+  mso-themecolor:text1;mso-fareast-language:ES-MX'>Define una título para un
+  elemento &lt;figure&gt;.<o:p></o:p></span></p>
+  </td>
+ </tr>
+ <tr style='mso-yfti-irow:13'>
+  <td style='padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal style='margin-top:22.5pt;margin-right:0cm;margin-bottom:
+  22.5pt;margin-left:0cm;text-align:justify;line-height:normal'><span
+  style='font-size:12.0pt;font-family:"Century Gothic",sans-serif;mso-fareast-font-family:
+  "Times New Roman";mso-bidi-font-family:"Times New Roman";color:black;
+  mso-themecolor:text1;mso-fareast-language:ES-MX'>&lt;<span class=SpellE><a
+  href="http://www.edu4java.com/es/web/html5-mejoras-incorporaciones.html"><span
+  style='color:black;mso-themecolor:text1;text-decoration:none;text-underline:
+  none'>mark</span></a></span>&gt;<o:p></o:p></span></p>
+  </td>
+  <td style='padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal style='margin-top:22.5pt;margin-right:0cm;margin-bottom:
+  22.5pt;margin-left:0cm;text-align:justify;line-height:normal'><span
+  style='font-size:12.0pt;font-family:"Century Gothic",sans-serif;mso-fareast-font-family:
+  "Times New Roman";mso-bidi-font-family:"Times New Roman";color:black;
+  mso-themecolor:text1;mso-fareast-language:ES-MX'>Define texto resaltado o
+  marcado.<o:p></o:p></span></p>
+  </td>
+ </tr>
+ <tr style='mso-yfti-irow:14'>
+  <td style='padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal style='margin-top:22.5pt;margin-right:0cm;margin-bottom:
+  22.5pt;margin-left:0cm;text-align:justify;line-height:normal'><span
+  style='font-size:12.0pt;font-family:"Century Gothic",sans-serif;mso-fareast-font-family:
+  "Times New Roman";mso-bidi-font-family:"Times New Roman";color:black;
+  mso-themecolor:text1;mso-fareast-language:ES-MX'>&lt;<a
+  href="http://www.edu4java.com/es/web/html5-nuevos-input-formularios.html"><span
+  style='color:black;mso-themecolor:text1;text-decoration:none;text-underline:
+  none'>time</span></a>&gt;<o:p></o:p></span></p>
+  </td>
+  <td style='padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal style='margin-top:22.5pt;margin-right:0cm;margin-bottom:
+  22.5pt;margin-left:0cm;text-align:justify;line-height:normal'><span
+  style='font-size:12.0pt;font-family:"Century Gothic",sans-serif;mso-fareast-font-family:
+  "Times New Roman";mso-bidi-font-family:"Times New Roman";color:black;
+  mso-themecolor:text1;mso-fareast-language:ES-MX'>Define una fecha/hora.<o:p></o:p></span></p>
+  </td>
+ </tr>
+ <tr style='mso-yfti-irow:15'>
+  <td style='padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal style='margin-top:22.5pt;margin-right:0cm;margin-bottom:
+  22.5pt;margin-left:0cm;text-align:justify;line-height:normal'><span
+  style='font-size:12.0pt;font-family:"Century Gothic",sans-serif;mso-fareast-font-family:
+  "Times New Roman";mso-bidi-font-family:"Times New Roman";color:black;
+  mso-themecolor:text1;mso-fareast-language:ES-MX'>&lt;<span class=SpellE>bdi</span>&gt;<o:p></o:p></span></p>
+  </td>
+  <td style='padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal style='margin-top:22.5pt;margin-right:0cm;margin-bottom:
+  22.5pt;margin-left:0cm;text-align:justify;line-height:normal'><span
+  style='font-size:12.0pt;font-family:"Century Gothic",sans-serif;mso-fareast-font-family:
+  "Times New Roman";mso-bidi-font-family:"Times New Roman";color:black;
+  mso-themecolor:text1;mso-fareast-language:ES-MX'>Define una parte del texto
+  que puede ser formateada de una manera diferente a la del texto principal.<o:p></o:p></span></p>
+  </td>
+ </tr>
+ <tr style='mso-yfti-irow:16'>
+  <td style='padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal style='margin-top:22.5pt;margin-right:0cm;margin-bottom:
+  22.5pt;margin-left:0cm;text-align:justify;line-height:normal'><span
+  style='font-size:12.0pt;font-family:"Century Gothic",sans-serif;mso-fareast-font-family:
+  "Times New Roman";mso-bidi-font-family:"Times New Roman";color:black;
+  mso-themecolor:text1;mso-fareast-language:ES-MX'>&lt;<span class=SpellE>wbr</span>&gt;<o:p></o:p></span></p>
+  </td>
+  <td style='padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal style='margin-top:22.5pt;margin-right:0cm;margin-bottom:
+  22.5pt;margin-left:0cm;text-align:justify;line-height:normal'><span
+  style='font-size:12.0pt;font-family:"Century Gothic",sans-serif;mso-fareast-font-family:
+  "Times New Roman";mso-bidi-font-family:"Times New Roman";color:black;
+  mso-themecolor:text1;mso-fareast-language:ES-MX'>Define un posible retorno de
+  carro.<o:p></o:p></span></p>
+  </td>
+ </tr>
+ <tr style='mso-yfti-irow:17'>
+  <td style='padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal style='margin-top:22.5pt;margin-right:0cm;margin-bottom:
+  22.5pt;margin-left:0cm;text-align:justify;line-height:normal'><span
+  style='font-size:12.0pt;font-family:"Century Gothic",sans-serif;mso-fareast-font-family:
+  "Times New Roman";mso-bidi-font-family:"Times New Roman";color:black;
+  mso-themecolor:text1;mso-fareast-language:ES-MX'>&lt;<span class=SpellE>dialog</span>&gt;<o:p></o:p></span></p>
+  </td>
+  <td style='padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal style='margin-top:22.5pt;margin-right:0cm;margin-bottom:
+  22.5pt;margin-left:0cm;text-align:justify;line-height:normal'><span
+  style='font-size:12.0pt;font-family:"Century Gothic",sans-serif;mso-fareast-font-family:
+  "Times New Roman";mso-bidi-font-family:"Times New Roman";color:black;
+  mso-themecolor:text1;mso-fareast-language:ES-MX'>Define una caja de diálogo o
+  ventana<o:p></o:p></span></p>
+  </td>
+ </tr>
+ <tr style='mso-yfti-irow:18'>
+  <td style='padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal style='margin-top:22.5pt;margin-right:0cm;margin-bottom:
+  22.5pt;margin-left:0cm;text-align:justify;line-height:normal'><span
+  style='font-size:12.0pt;font-family:"Century Gothic",sans-serif;mso-fareast-font-family:
+  "Times New Roman";mso-bidi-font-family:"Times New Roman";color:black;
+  mso-themecolor:text1;mso-fareast-language:ES-MX'>&lt;<span class=SpellE>command</span>&gt;<o:p></o:p></span></p>
+  </td>
+  <td style='padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal style='margin-top:22.5pt;margin-right:0cm;margin-bottom:
+  22.5pt;margin-left:0cm;text-align:justify;line-height:normal'><span
+  style='font-size:12.0pt;font-family:"Century Gothic",sans-serif;mso-fareast-font-family:
+  "Times New Roman";mso-bidi-font-family:"Times New Roman";color:black;
+  mso-themecolor:text1;mso-fareast-language:ES-MX'>Define un botón de comando
+  al que el usuario puede llamar<o:p></o:p></span></p>
+  </td>
+ </tr>
+ <tr style='mso-yfti-irow:19'>
+  <td style='padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal style='margin-top:22.5pt;margin-right:0cm;margin-bottom:
+  22.5pt;margin-left:0cm;text-align:justify;line-height:normal'><span
+  style='font-size:12.0pt;font-family:"Century Gothic",sans-serif;mso-fareast-font-family:
+  "Times New Roman";mso-bidi-font-family:"Times New Roman";color:black;
+  mso-themecolor:text1;mso-fareast-language:ES-MX'>&lt;meter&gt;<o:p></o:p></span></p>
+  </td>
+  <td style='padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal style='margin-top:22.5pt;margin-right:0cm;margin-bottom:
+  22.5pt;margin-left:0cm;text-align:justify;line-height:normal'><span
+  style='font-size:12.0pt;font-family:"Century Gothic",sans-serif;mso-fareast-font-family:
+  "Times New Roman";mso-bidi-font-family:"Times New Roman";color:black;
+  mso-themecolor:text1;mso-fareast-language:ES-MX'>Define una medida escalar
+  dentro de un rango establecido.<o:p></o:p></span></p>
+  </td>
+ </tr>
+ <tr style='mso-yfti-irow:20'>
+  <td style='padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal style='margin-top:22.5pt;margin-right:0cm;margin-bottom:
+  22.5pt;margin-left:0cm;text-align:justify;line-height:normal'><span
+  style='font-size:12.0pt;font-family:"Century Gothic",sans-serif;mso-fareast-font-family:
+  "Times New Roman";mso-bidi-font-family:"Times New Roman";color:black;
+  mso-themecolor:text1;mso-fareast-language:ES-MX'>&lt;<span class=SpellE>progress</span>&gt;<o:p></o:p></span></p>
+  </td>
+  <td style='padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal style='margin-top:22.5pt;margin-right:0cm;margin-bottom:
+  22.5pt;margin-left:0cm;text-align:justify;line-height:normal'><span
+  style='font-size:12.0pt;font-family:"Century Gothic",sans-serif;mso-fareast-font-family:
+  "Times New Roman";mso-bidi-font-family:"Times New Roman";color:black;
+  mso-themecolor:text1;mso-fareast-language:ES-MX'>Define el progreso de una
+  tarea.<o:p></o:p></span></p>
+  </td>
+ </tr>
+ <tr style='mso-yfti-irow:21'>
+  <td style='padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal style='margin-top:22.5pt;margin-right:0cm;margin-bottom:
+  22.5pt;margin-left:0cm;text-align:justify;line-height:normal'><span
+  style='font-size:12.0pt;font-family:"Century Gothic",sans-serif;mso-fareast-font-family:
+  "Times New Roman";mso-bidi-font-family:"Times New Roman";color:black;
+  mso-themecolor:text1;mso-fareast-language:ES-MX'>&lt;<span class=SpellE>ruby</span>&gt;<o:p></o:p></span></p>
+  </td>
+  <td style='padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal style='margin-top:22.5pt;margin-right:0cm;margin-bottom:
+  22.5pt;margin-left:0cm;text-align:justify;line-height:normal'><span
+  style='font-size:12.0pt;font-family:"Century Gothic",sans-serif;mso-fareast-font-family:
+  "Times New Roman";mso-bidi-font-family:"Times New Roman";color:black;
+  mso-themecolor:text1;mso-fareast-language:ES-MX'>Define una anotación <span
+  class=SpellE>ruby</span> (para tipografía del este asiático<span class=GramE>)
+  .</span><o:p></o:p></span></p>
+  </td>
+ </tr>
+ <tr style='mso-yfti-irow:22'>
+  <td style='padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal style='margin-top:22.5pt;margin-right:0cm;margin-bottom:
+  22.5pt;margin-left:0cm;text-align:justify;line-height:normal'><span
+  style='font-size:12.0pt;font-family:"Century Gothic",sans-serif;mso-fareast-font-family:
+  "Times New Roman";mso-bidi-font-family:"Times New Roman";color:black;
+  mso-themecolor:text1;mso-fareast-language:ES-MX'>&lt;<span class=SpellE>rt</span>&gt;<o:p></o:p></span></p>
+  </td>
+  <td style='padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal style='margin-top:22.5pt;margin-right:0cm;margin-bottom:
+  22.5pt;margin-left:0cm;text-align:justify;line-height:normal'><span
+  style='font-size:12.0pt;font-family:"Century Gothic",sans-serif;mso-fareast-font-family:
+  "Times New Roman";mso-bidi-font-family:"Times New Roman";color:black;
+  mso-themecolor:text1;mso-fareast-language:ES-MX'>Define una pronunciación de
+  caracteres (para tipografía del este asiático)<o:p></o:p></span></p>
+  </td>
+ </tr>
+ <tr style='mso-yfti-irow:23;mso-yfti-lastrow:yes'>
+  <td style='padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal style='margin-top:22.5pt;margin-right:0cm;margin-bottom:
+  22.5pt;margin-left:0cm;text-align:justify;line-height:normal'><span
+  style='font-size:12.0pt;font-family:"Century Gothic",sans-serif;mso-fareast-font-family:
+  "Times New Roman";mso-bidi-font-family:"Times New Roman";color:black;
+  mso-themecolor:text1;mso-fareast-language:ES-MX'>&lt;<span class=SpellE>rp</span>&gt;<o:p></o:p></span></p>
+  </td>
+  <td style='padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal style='margin-top:22.5pt;margin-right:0cm;margin-bottom:
+  22.5pt;margin-left:0cm;text-align:justify;line-height:normal'><span
+  style='font-size:12.0pt;font-family:"Century Gothic",sans-serif;mso-fareast-font-family:
+  "Times New Roman";mso-bidi-font-family:"Times New Roman";color:black;
+  mso-themecolor:text1;mso-fareast-language:ES-MX'>Define lo que se puede
+  mostrar en los navegadores que no soporta las anotaciones <span class=SpellE>ruby</span>.<o:p></o:p></span></p>
+  </td>
+ </tr>
+</table>
+
+<p class=MsoNormal style='mso-margin-bottom-alt:auto;text-align:justify;
+line-height:normal'><span style='font-size:12.0pt;font-family:"Century Gothic",sans-serif;
+mso-fareast-font-family:"Times New Roman";mso-bidi-font-family:"Times New Roman";
+color:black;mso-themecolor:text1;mso-fareast-language:ES-MX'>&nbsp;<o:p></o:p></span></p>
+
+<p class=MsoNormal style='mso-margin-bottom-alt:auto;text-align:justify;
+line-height:normal;mso-outline-level:2'><span style='font-size:12.0pt;
+font-family:"Century Gothic",sans-serif;mso-fareast-font-family:"Times New Roman";
+mso-bidi-font-family:"Times New Roman";color:black;mso-themecolor:text1;
+mso-fareast-language:ES-MX;mso-bidi-font-weight:bold'>Nuevos elementos <span
+class=SpellE>Form</span><o:p></o:p></span></p>
+
+<table class=MsoNormalTable border=1 cellpadding=0 width=0 style='width:378.75pt;
+ mso-cellspacing:1.5pt;margin-left:22.5pt;mso-yfti-tbllook:1184'>
+ <tr style='mso-yfti-irow:0;mso-yfti-firstrow:yes'>
+  <td width=85 style='width:60.75pt;padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal style='margin-top:22.5pt;margin-right:0cm;margin-bottom:
+  22.5pt;margin-left:0cm;text-align:justify;line-height:normal'><span
+  style='font-size:12.0pt;font-family:"Century Gothic",sans-serif;mso-fareast-font-family:
+  "Times New Roman";mso-bidi-font-family:"Times New Roman";color:black;
+  mso-themecolor:text1;mso-fareast-language:ES-MX;mso-bidi-font-weight:bold'>Etiqueta<o:p></o:p></span></p>
+  </td>
+  <td width=420 style='width:306.0pt;padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal style='margin-top:22.5pt;margin-right:0cm;margin-bottom:
+  22.5pt;margin-left:0cm;text-align:justify;line-height:normal'><span
+  style='font-size:12.0pt;font-family:"Century Gothic",sans-serif;mso-fareast-font-family:
+  "Times New Roman";mso-bidi-font-family:"Times New Roman";color:black;
+  mso-themecolor:text1;mso-fareast-language:ES-MX;mso-bidi-font-weight:bold'>Descripción<o:p></o:p></span></p>
+  </td>
+ </tr>
+ <tr style='mso-yfti-irow:1'>
+  <td style='padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal style='margin-top:22.5pt;margin-right:0cm;margin-bottom:
+  22.5pt;margin-left:0cm;text-align:justify;line-height:normal'><span
+  style='font-size:12.0pt;font-family:"Century Gothic",sans-serif;mso-fareast-font-family:
+  "Times New Roman";mso-bidi-font-family:"Times New Roman";color:black;
+  mso-themecolor:text1;mso-fareast-language:ES-MX'>&lt;<span class=SpellE>datalist</span>&gt;<o:p></o:p></span></p>
+  </td>
+  <td style='padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal style='margin-top:22.5pt;margin-right:0cm;margin-bottom:
+  22.5pt;margin-left:0cm;text-align:justify;line-height:normal'><span
+  style='font-size:12.0pt;font-family:"Century Gothic",sans-serif;mso-fareast-font-family:
+  "Times New Roman";mso-bidi-font-family:"Times New Roman";color:black;
+  mso-themecolor:text1;mso-fareast-language:ES-MX'>Define opciones predefinidas
+  para una caja de texto input.<o:p></o:p></span></p>
+  </td>
+ </tr>
+ <tr style='mso-yfti-irow:2'>
+  <td style='padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal style='margin-top:22.5pt;margin-right:0cm;margin-bottom:
+  22.5pt;margin-left:0cm;text-align:justify;line-height:normal'><span
+  style='font-size:12.0pt;font-family:"Century Gothic",sans-serif;mso-fareast-font-family:
+  "Times New Roman";mso-bidi-font-family:"Times New Roman";color:black;
+  mso-themecolor:text1;mso-fareast-language:ES-MX'>&lt;<span class=SpellE>keygen</span>&gt;<o:p></o:p></span></p>
+  </td>
+  <td style='padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal style='margin-top:22.5pt;margin-right:0cm;margin-bottom:
+  22.5pt;margin-left:0cm;text-align:justify;line-height:normal'><span
+  style='font-size:12.0pt;font-family:"Century Gothic",sans-serif;mso-fareast-font-family:
+  "Times New Roman";mso-bidi-font-family:"Times New Roman";color:black;
+  mso-themecolor:text1;mso-fareast-language:ES-MX'>Define un campo generador de
+  palabras clave(para&nbsp;envío de claves a <span class=SpellE>traves</span>
+  de formularios)<o:p></o:p></span></p>
+  </td>
+ </tr>
+ <tr style='mso-yfti-irow:3;mso-yfti-lastrow:yes'>
+  <td style='padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal style='margin-top:22.5pt;margin-right:0cm;margin-bottom:
+  22.5pt;margin-left:0cm;text-align:justify;line-height:normal'><span
+  style='font-size:12.0pt;font-family:"Century Gothic",sans-serif;mso-fareast-font-family:
+  "Times New Roman";mso-bidi-font-family:"Times New Roman";color:black;
+  mso-themecolor:text1;mso-fareast-language:ES-MX'>&lt;output&gt;<o:p></o:p></span></p>
+  </td>
+  <td style='padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal style='margin-top:22.5pt;margin-right:0cm;margin-bottom:
+  22.5pt;margin-left:0cm;text-align:justify;line-height:normal'><span
+  style='font-size:12.0pt;font-family:"Century Gothic",sans-serif;mso-fareast-font-family:
+  "Times New Roman";mso-bidi-font-family:"Times New Roman";color:black;
+  mso-themecolor:text1;mso-fareast-language:ES-MX'>Define el resultado de un
+  cálculo<o:p></o:p></span></p>
+  </td>
+ </tr>
+</table>
+
+<p class=MsoNormal style='mso-margin-bottom-alt:auto;text-align:justify;
+line-height:normal'><span style='font-size:12.0pt;font-family:"Century Gothic",sans-serif;
+mso-fareast-font-family:"Times New Roman";mso-bidi-font-family:"Times New Roman";
+color:black;mso-themecolor:text1;mso-fareast-language:ES-MX'>&nbsp;<o:p></o:p></span></p>
+
+<p class=MsoNormal style='mso-margin-bottom-alt:auto;text-align:justify;
+line-height:normal;mso-outline-level:2'><span style='font-size:12.0pt;
+font-family:"Century Gothic",sans-serif;mso-fareast-font-family:"Times New Roman";
+mso-bidi-font-family:"Times New Roman";color:black;mso-themecolor:text1;
+mso-fareast-language:ES-MX;mso-bidi-font-weight:bold'><o:p>&nbsp;</o:p></span></p>
+
+<p class=MsoNormal style='mso-margin-bottom-alt:auto;text-align:justify;
+line-height:normal;mso-outline-level:2'><span style='font-size:12.0pt;
+font-family:"Century Gothic",sans-serif;mso-fareast-font-family:"Times New Roman";
+mso-bidi-font-family:"Times New Roman";color:black;mso-themecolor:text1;
+mso-fareast-language:ES-MX;mso-bidi-font-weight:bold'><o:p>&nbsp;</o:p></span></p>
+
+<p class=MsoNormal style='mso-margin-bottom-alt:auto;text-align:justify;
+line-height:normal;mso-outline-level:2'><span style='font-size:12.0pt;
+font-family:"Century Gothic",sans-serif;mso-fareast-font-family:"Times New Roman";
+mso-bidi-font-family:"Times New Roman";color:black;mso-themecolor:text1;
+mso-fareast-language:ES-MX;mso-bidi-font-weight:bold'><o:p>&nbsp;</o:p></span></p>
+
+<p class=MsoNormal style='mso-margin-bottom-alt:auto;text-align:justify;
+line-height:normal;mso-outline-level:2'><span style='font-size:12.0pt;
+font-family:"Century Gothic",sans-serif;mso-fareast-font-family:"Times New Roman";
+mso-bidi-font-family:"Times New Roman";color:black;mso-themecolor:text1;
+mso-fareast-language:ES-MX;mso-bidi-font-weight:bold'><o:p>&nbsp;</o:p></span></p>
+
+<p class=MsoNormal style='mso-margin-bottom-alt:auto;text-align:justify;
+line-height:normal;mso-outline-level:2'><span style='font-size:12.0pt;
+font-family:"Century Gothic",sans-serif;mso-fareast-font-family:"Times New Roman";
+mso-bidi-font-family:"Times New Roman";color:black;mso-themecolor:text1;
+mso-fareast-language:ES-MX;mso-bidi-font-weight:bold'><o:p>&nbsp;</o:p></span></p>
+
+<p class=MsoNormal style='mso-margin-bottom-alt:auto;text-align:justify;
+line-height:normal;mso-outline-level:2'><span style='font-size:12.0pt;
+font-family:"Century Gothic",sans-serif;mso-fareast-font-family:"Times New Roman";
+mso-bidi-font-family:"Times New Roman";color:black;mso-themecolor:text1;
+mso-fareast-language:ES-MX;mso-bidi-font-weight:bold'>El nuevo elemento &lt;<span
+class=SpellE>canvas</span>&gt;<o:p></o:p></span></p>
+
+<table class=MsoNormalTable border=1 cellpadding=0 width=0 style='width:327.75pt;
+ mso-cellspacing:1.5pt;margin-left:22.5pt;mso-yfti-tbllook:1184'>
+ <tr style='mso-yfti-irow:0;mso-yfti-firstrow:yes'>
+  <td width=84 style='width:48.75pt;padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal style='margin-top:22.5pt;margin-right:0cm;margin-bottom:
+  22.5pt;margin-left:0cm;text-align:justify;line-height:normal'><span
+  style='font-size:12.0pt;font-family:"Century Gothic",sans-serif;mso-fareast-font-family:
+  "Times New Roman";mso-bidi-font-family:"Times New Roman";color:black;
+  mso-themecolor:text1;mso-fareast-language:ES-MX;mso-bidi-font-weight:bold'>Etiqueta<o:p></o:p></span></p>
+  </td>
+  <td width=353 style='width:267.0pt;padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal style='margin-top:22.5pt;margin-right:0cm;margin-bottom:
+  22.5pt;margin-left:0cm;text-align:justify;line-height:normal'><span
+  style='font-size:12.0pt;font-family:"Century Gothic",sans-serif;mso-fareast-font-family:
+  "Times New Roman";mso-bidi-font-family:"Times New Roman";color:black;
+  mso-themecolor:text1;mso-fareast-language:ES-MX;mso-bidi-font-weight:bold'>Descripción<o:p></o:p></span></p>
+  </td>
+ </tr>
+ <tr style='mso-yfti-irow:1;mso-yfti-lastrow:yes'>
+  <td style='padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal style='margin-top:22.5pt;margin-right:0cm;margin-bottom:
+  22.5pt;margin-left:0cm;text-align:justify;line-height:normal'><span
+  style='font-size:12.0pt;font-family:"Century Gothic",sans-serif;mso-fareast-font-family:
+  "Times New Roman";mso-bidi-font-family:"Times New Roman";color:black;
+  mso-themecolor:text1;mso-fareast-language:ES-MX'>&lt;<span class=SpellE>canvas</span>&gt;<o:p></o:p></span></p>
+  </td>
+  <td style='padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal style='margin-top:22.5pt;margin-right:0cm;margin-bottom:
+  22.5pt;margin-left:0cm;text-align:justify;line-height:normal'><span
+  style='font-size:12.0pt;font-family:"Century Gothic",sans-serif;mso-fareast-font-family:
+  "Times New Roman";mso-bidi-font-family:"Times New Roman";color:black;
+  mso-themecolor:text1;mso-fareast-language:ES-MX'>Define dibujos gráficos
+  utilizando JavaScript<o:p></o:p></span></p>
+  </td>
+ </tr>
+</table>
+
+<p class=MsoNormal style='mso-margin-bottom-alt:auto;text-align:justify;
+line-height:normal'><span style='font-size:12.0pt;font-family:"Century Gothic",sans-serif;
+mso-fareast-font-family:"Times New Roman";mso-bidi-font-family:"Times New Roman";
+color:black;mso-themecolor:text1;mso-fareast-language:ES-MX'><o:p>&nbsp;</o:p></span></p>
+
+<p class=MsoNormal style='mso-margin-bottom-alt:auto;text-align:justify;
+line-height:normal;mso-outline-level:2'><span style='font-size:12.0pt;
+font-family:"Century Gothic",sans-serif;mso-fareast-font-family:"Times New Roman";
+mso-bidi-font-family:"Times New Roman";color:black;mso-themecolor:text1;
+mso-fareast-language:ES-MX;mso-bidi-font-weight:bold'>Nuevos Elementos Media<o:p></o:p></span></p>
+
+<table class=MsoNormalTable border=1 cellpadding=0 width=0 style='width:442.5pt;
+ mso-cellspacing:1.5pt;margin-left:22.5pt;mso-yfti-tbllook:1184'>
+ <tr style='mso-yfti-irow:0;mso-yfti-firstrow:yes'>
+  <td width=84 style='width:46.5pt;padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal style='margin-top:22.5pt;margin-right:0cm;margin-bottom:
+  22.5pt;margin-left:0cm;text-align:justify;line-height:normal'><span
+  style='font-size:12.0pt;font-family:"Century Gothic",sans-serif;mso-fareast-font-family:
+  "Times New Roman";mso-bidi-font-family:"Times New Roman";color:black;
+  mso-themecolor:text1;mso-fareast-language:ES-MX;mso-bidi-font-weight:bold'>Etiqueta<o:p></o:p></span></p>
+  </td>
+  <td width=506 style='width:384.0pt;padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal style='margin-top:22.5pt;margin-right:0cm;margin-bottom:
+  22.5pt;margin-left:0cm;text-align:justify;line-height:normal'><span
+  style='font-size:12.0pt;font-family:"Century Gothic",sans-serif;mso-fareast-font-family:
+  "Times New Roman";mso-bidi-font-family:"Times New Roman";color:black;
+  mso-themecolor:text1;mso-fareast-language:ES-MX;mso-bidi-font-weight:bold'>Descripción<o:p></o:p></span></p>
+  </td>
+ </tr>
+ <tr style='mso-yfti-irow:1'>
+  <td style='padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal style='margin-top:22.5pt;margin-right:0cm;margin-bottom:
+  22.5pt;margin-left:0cm;text-align:justify;line-height:normal'><span
+  style='font-size:12.0pt;font-family:"Century Gothic",sans-serif;mso-fareast-font-family:
+  "Times New Roman";mso-bidi-font-family:"Times New Roman";color:black;
+  mso-themecolor:text1;mso-fareast-language:ES-MX'>&lt;audio&gt;<o:p></o:p></span></p>
+  </td>
+  <td style='padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal style='margin-top:22.5pt;margin-right:0cm;margin-bottom:
+  22.5pt;margin-left:0cm;text-align:justify;line-height:normal'><span
+  style='font-size:12.0pt;font-family:"Century Gothic",sans-serif;mso-fareast-font-family:
+  "Times New Roman";mso-bidi-font-family:"Times New Roman";color:black;
+  mso-themecolor:text1;mso-fareast-language:ES-MX'>Define contenido de sonido o
+  música<o:p></o:p></span></p>
+  </td>
+ </tr>
+ <tr style='mso-yfti-irow:2'>
+  <td style='padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal style='margin-top:22.5pt;margin-right:0cm;margin-bottom:
+  22.5pt;margin-left:0cm;text-align:justify;line-height:normal'><span
+  style='font-size:12.0pt;font-family:"Century Gothic",sans-serif;mso-fareast-font-family:
+  "Times New Roman";mso-bidi-font-family:"Times New Roman";color:black;
+  mso-themecolor:text1;mso-fareast-language:ES-MX'>&lt;video&gt;<o:p></o:p></span></p>
+  </td>
+  <td style='padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal style='margin-top:22.5pt;margin-right:0cm;margin-bottom:
+  22.5pt;margin-left:0cm;text-align:justify;line-height:normal'><span
+  style='font-size:12.0pt;font-family:"Century Gothic",sans-serif;mso-fareast-font-family:
+  "Times New Roman";mso-bidi-font-family:"Times New Roman";color:black;
+  mso-themecolor:text1;mso-fareast-language:ES-MX'>Define contenido de video o <span
+  class=SpellE>smovie</span><o:p></o:p></span></p>
+  </td>
+ </tr>
+ <tr style='mso-yfti-irow:3'>
+  <td style='padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal style='margin-top:22.5pt;margin-right:0cm;margin-bottom:
+  22.5pt;margin-left:0cm;text-align:justify;line-height:normal'><span
+  style='font-size:12.0pt;font-family:"Century Gothic",sans-serif;mso-fareast-font-family:
+  "Times New Roman";mso-bidi-font-family:"Times New Roman";color:black;
+  mso-themecolor:text1;mso-fareast-language:ES-MX'>&lt;<span class=SpellE>source</span>&gt;<o:p></o:p></span></p>
+  </td>
+  <td style='padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal style='margin-top:22.5pt;margin-right:0cm;margin-bottom:
+  22.5pt;margin-left:0cm;text-align:justify;line-height:normal'><span
+  style='font-size:12.0pt;font-family:"Century Gothic",sans-serif;mso-fareast-font-family:
+  "Times New Roman";mso-bidi-font-family:"Times New Roman";color:black;
+  mso-themecolor:text1;mso-fareast-language:ES-MX'>Define fuentes para
+  &lt;video&gt; y &lt;audio&gt;<o:p></o:p></span></p>
+  </td>
+ </tr>
+ <tr style='mso-yfti-irow:4'>
+  <td style='padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal style='margin-top:22.5pt;margin-right:0cm;margin-bottom:
+  22.5pt;margin-left:0cm;text-align:justify;line-height:normal'><span
+  style='font-size:12.0pt;font-family:"Century Gothic",sans-serif;mso-fareast-font-family:
+  "Times New Roman";mso-bidi-font-family:"Times New Roman";color:black;
+  mso-themecolor:text1;mso-fareast-language:ES-MX'>&lt;<span class=SpellE>track</span>&gt;<o:p></o:p></span></p>
+  </td>
+  <td style='padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal style='margin-top:22.5pt;margin-right:0cm;margin-bottom:
+  22.5pt;margin-left:0cm;text-align:justify;line-height:normal'><span
+  style='font-size:12.0pt;font-family:"Century Gothic",sans-serif;mso-fareast-font-family:
+  "Times New Roman";mso-bidi-font-family:"Times New Roman";color:black;
+  mso-themecolor:text1;mso-fareast-language:ES-MX'>Defines rutas para
+  &lt;video&gt; y &lt;audio&gt;<o:p></o:p></span></p>
+  </td>
+ </tr>
+ <tr style='mso-yfti-irow:5;mso-yfti-lastrow:yes'>
+  <td style='padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal style='margin-top:22.5pt;margin-right:0cm;margin-bottom:
+  22.5pt;margin-left:0cm;text-align:justify;line-height:normal'><span
+  style='font-size:12.0pt;font-family:"Century Gothic",sans-serif;mso-fareast-font-family:
+  "Times New Roman";mso-bidi-font-family:"Times New Roman";color:black;
+  mso-themecolor:text1;mso-fareast-language:ES-MX'>&lt;<span class=SpellE>embed</span>&gt;<o:p></o:p></span></p>
+  </td>
+  <td style='padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal style='margin-top:22.5pt;margin-right:0cm;margin-bottom:
+  22.5pt;margin-left:0cm;text-align:justify;line-height:normal'><span
+  style='font-size:12.0pt;font-family:"Century Gothic",sans-serif;mso-fareast-font-family:
+  "Times New Roman";mso-bidi-font-family:"Times New Roman";color:black;
+  mso-themecolor:text1;mso-fareast-language:ES-MX'>Define <span class=SpellE>containers</span>
+  para aplicaciones externas (como <span class=SpellE>plug-ins</span>)<o:p></o:p></span></p>
+  </td>
+ </tr>
+</table>
+
+<p class=MsoNormal style='mso-margin-bottom-alt:auto;text-align:justify;
+line-height:normal'><span style='font-size:12.0pt;font-family:"Century Gothic",sans-serif;
+mso-fareast-font-family:"Times New Roman";mso-bidi-font-family:"Times New Roman";
+color:black;mso-themecolor:text1;mso-fareast-language:ES-MX'>&nbsp;<o:p></o:p></span></p>
+
+<p class=MsoNormal style='mso-margin-bottom-alt:auto;text-align:justify;
+line-height:normal;mso-outline-level:2'><span style='font-size:12.0pt;
+font-family:"Century Gothic",sans-serif;mso-fareast-font-family:"Times New Roman";
+mso-bidi-font-family:"Times New Roman";color:black;mso-themecolor:text1;
+mso-fareast-language:ES-MX;mso-bidi-font-weight:bold'>Elementos eliminados<o:p></o:p></span></p>
+
+<p class=MsoNormal style='mso-margin-bottom-alt:auto;text-align:justify;
+line-height:normal'><span style='font-size:12.0pt;font-family:"Century Gothic",sans-serif;
+mso-fareast-font-family:"Times New Roman";mso-bidi-font-family:"Times New Roman";
+color:black;mso-themecolor:text1;mso-fareast-language:ES-MX'>Los siguientes
+elementos de HTML 4.01 han sido eliminados de HTML5:<o:p></o:p></span></p>
+
+<p class=MsoNormal style='mso-margin-top-alt:auto;mso-margin-bottom-alt:auto;
+margin-left:18.0pt;text-align:justify;text-indent:-18.0pt;line-height:normal;
+mso-list:l0 level1 lfo1;tab-stops:list 36.0pt'><![if !supportLists]><span
+style='font-size:10.0pt;mso-bidi-font-size:12.0pt;font-family:Symbol;
+mso-fareast-font-family:Symbol;mso-bidi-font-family:Symbol;color:black;
+mso-themecolor:text1;mso-fareast-language:ES-MX'><span style='mso-list:Ignore'>·<span
+style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span></span><![endif]><span style='font-size:12.0pt;font-family:"Century Gothic",sans-serif;
+mso-fareast-font-family:"Times New Roman";mso-bidi-font-family:"Times New Roman";
+color:black;mso-themecolor:text1;mso-fareast-language:ES-MX'>&lt;<span
+class=SpellE>acronym</span>&gt;<o:p></o:p></span></p>
+
+<p class=MsoNormal style='mso-margin-top-alt:auto;mso-margin-bottom-alt:auto;
+margin-left:18.0pt;text-align:justify;text-indent:-18.0pt;line-height:normal;
+mso-list:l0 level1 lfo1;tab-stops:list 36.0pt'><![if !supportLists]><span
+style='font-size:10.0pt;mso-bidi-font-size:12.0pt;font-family:Symbol;
+mso-fareast-font-family:Symbol;mso-bidi-font-family:Symbol;color:black;
+mso-themecolor:text1;mso-fareast-language:ES-MX'><span style='mso-list:Ignore'>·<span
+style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span></span><![endif]><span style='font-size:12.0pt;font-family:"Century Gothic",sans-serif;
+mso-fareast-font-family:"Times New Roman";mso-bidi-font-family:"Times New Roman";
+color:black;mso-themecolor:text1;mso-fareast-language:ES-MX'>&lt;<span
+class=SpellE>applet</span>&gt;<o:p></o:p></span></p>
+
+<p class=MsoNormal style='mso-margin-top-alt:auto;mso-margin-bottom-alt:auto;
+margin-left:18.0pt;text-align:justify;text-indent:-18.0pt;line-height:normal;
+mso-list:l0 level1 lfo1;tab-stops:list 36.0pt'><![if !supportLists]><span
+style='font-size:10.0pt;mso-bidi-font-size:12.0pt;font-family:Symbol;
+mso-fareast-font-family:Symbol;mso-bidi-font-family:Symbol;color:black;
+mso-themecolor:text1;mso-fareast-language:ES-MX'><span style='mso-list:Ignore'>·<span
+style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span></span><![endif]><span style='font-size:12.0pt;font-family:"Century Gothic",sans-serif;
+mso-fareast-font-family:"Times New Roman";mso-bidi-font-family:"Times New Roman";
+color:black;mso-themecolor:text1;mso-fareast-language:ES-MX'>&lt;<span
+class=SpellE>basefont</span>&gt;<o:p></o:p></span></p>
+
+<p class=MsoNormal style='mso-margin-top-alt:auto;mso-margin-bottom-alt:auto;
+margin-left:18.0pt;text-align:justify;text-indent:-18.0pt;line-height:normal;
+mso-list:l0 level1 lfo1;tab-stops:list 36.0pt'><![if !supportLists]><span
+style='font-size:10.0pt;mso-bidi-font-size:12.0pt;font-family:Symbol;
+mso-fareast-font-family:Symbol;mso-bidi-font-family:Symbol;color:black;
+mso-themecolor:text1;mso-fareast-language:ES-MX'><span style='mso-list:Ignore'>·<span
+style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span></span><![endif]><span style='font-size:12.0pt;font-family:"Century Gothic",sans-serif;
+mso-fareast-font-family:"Times New Roman";mso-bidi-font-family:"Times New Roman";
+color:black;mso-themecolor:text1;mso-fareast-language:ES-MX'>&lt;<span
+class=SpellE>big</span>&gt;<o:p></o:p></span></p>
+
+<p class=MsoNormal style='mso-margin-top-alt:auto;mso-margin-bottom-alt:auto;
+margin-left:18.0pt;text-align:justify;text-indent:-18.0pt;line-height:normal;
+mso-list:l0 level1 lfo1;tab-stops:list 36.0pt'><![if !supportLists]><span
+style='font-size:10.0pt;mso-bidi-font-size:12.0pt;font-family:Symbol;
+mso-fareast-font-family:Symbol;mso-bidi-font-family:Symbol;color:black;
+mso-themecolor:text1;mso-fareast-language:ES-MX'><span style='mso-list:Ignore'>·<span
+style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span></span><![endif]><span style='font-size:12.0pt;font-family:"Century Gothic",sans-serif;
+mso-fareast-font-family:"Times New Roman";mso-bidi-font-family:"Times New Roman";
+color:black;mso-themecolor:text1;mso-fareast-language:ES-MX'>&lt;center&gt;<o:p></o:p></span></p>
+
+<p class=MsoNormal style='mso-margin-top-alt:auto;mso-margin-bottom-alt:auto;
+margin-left:18.0pt;text-align:justify;text-indent:-18.0pt;line-height:normal;
+mso-list:l0 level1 lfo1;tab-stops:list 36.0pt'><![if !supportLists]><span
+style='font-size:10.0pt;mso-bidi-font-size:12.0pt;font-family:Symbol;
+mso-fareast-font-family:Symbol;mso-bidi-font-family:Symbol;color:black;
+mso-themecolor:text1;mso-fareast-language:ES-MX'><span style='mso-list:Ignore'>·<span
+style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span></span><![endif]><span style='font-size:12.0pt;font-family:"Century Gothic",sans-serif;
+mso-fareast-font-family:"Times New Roman";mso-bidi-font-family:"Times New Roman";
+color:black;mso-themecolor:text1;mso-fareast-language:ES-MX'>&lt;<span
+class=SpellE>dir</span>&gt;<o:p></o:p></span></p>
+
+<p class=MsoNormal style='mso-margin-top-alt:auto;mso-margin-bottom-alt:auto;
+margin-left:18.0pt;text-align:justify;text-indent:-18.0pt;line-height:normal;
+mso-list:l0 level1 lfo1;tab-stops:list 36.0pt'><![if !supportLists]><span
+style='font-size:10.0pt;mso-bidi-font-size:12.0pt;font-family:Symbol;
+mso-fareast-font-family:Symbol;mso-bidi-font-family:Symbol;color:black;
+mso-themecolor:text1;mso-fareast-language:ES-MX'><span style='mso-list:Ignore'>·<span
+style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span></span><![endif]><span style='font-size:12.0pt;font-family:"Century Gothic",sans-serif;
+mso-fareast-font-family:"Times New Roman";mso-bidi-font-family:"Times New Roman";
+color:black;mso-themecolor:text1;mso-fareast-language:ES-MX'>&lt;<span
+class=SpellE>font</span>&gt;<o:p></o:p></span></p>
+
+<p class=MsoNormal style='mso-margin-top-alt:auto;mso-margin-bottom-alt:auto;
+margin-left:18.0pt;text-align:justify;text-indent:-18.0pt;line-height:normal;
+mso-list:l0 level1 lfo1;tab-stops:list 36.0pt'><![if !supportLists]><span
+style='font-size:10.0pt;mso-bidi-font-size:12.0pt;font-family:Symbol;
+mso-fareast-font-family:Symbol;mso-bidi-font-family:Symbol;color:black;
+mso-themecolor:text1;mso-fareast-language:ES-MX'><span style='mso-list:Ignore'>·<span
+style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span></span><![endif]><span style='font-size:12.0pt;font-family:"Century Gothic",sans-serif;
+mso-fareast-font-family:"Times New Roman";mso-bidi-font-family:"Times New Roman";
+color:black;mso-themecolor:text1;mso-fareast-language:ES-MX'>&lt;<span
+class=SpellE>frame</span>&gt;<o:p></o:p></span></p>
+
+<p class=MsoNormal style='mso-margin-top-alt:auto;mso-margin-bottom-alt:auto;
+margin-left:18.0pt;text-align:justify;text-indent:-18.0pt;line-height:normal;
+mso-list:l0 level1 lfo1;tab-stops:list 36.0pt'><![if !supportLists]><span
+style='font-size:10.0pt;mso-bidi-font-size:12.0pt;font-family:Symbol;
+mso-fareast-font-family:Symbol;mso-bidi-font-family:Symbol;color:black;
+mso-themecolor:text1;mso-fareast-language:ES-MX'><span style='mso-list:Ignore'>·<span
+style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span></span><![endif]><span style='font-size:12.0pt;font-family:"Century Gothic",sans-serif;
+mso-fareast-font-family:"Times New Roman";mso-bidi-font-family:"Times New Roman";
+color:black;mso-themecolor:text1;mso-fareast-language:ES-MX'>&lt;<span
+class=SpellE>frameset</span>&gt;<o:p></o:p></span></p>
+
+<p class=MsoNormal style='mso-margin-top-alt:auto;mso-margin-bottom-alt:auto;
+margin-left:18.0pt;text-align:justify;text-indent:-18.0pt;line-height:normal;
+mso-list:l0 level1 lfo1;tab-stops:list 36.0pt'><![if !supportLists]><span
+style='font-size:10.0pt;mso-bidi-font-size:12.0pt;font-family:Symbol;
+mso-fareast-font-family:Symbol;mso-bidi-font-family:Symbol;color:black;
+mso-themecolor:text1;mso-fareast-language:ES-MX'><span style='mso-list:Ignore'>·<span
+style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span></span><![endif]><span style='font-size:12.0pt;font-family:"Century Gothic",sans-serif;
+mso-fareast-font-family:"Times New Roman";mso-bidi-font-family:"Times New Roman";
+color:black;mso-themecolor:text1;mso-fareast-language:ES-MX'>&lt;<span
+class=SpellE>noframes</span>&gt;<o:p></o:p></span></p>
+
+<p class=MsoNormal style='mso-margin-top-alt:auto;mso-margin-bottom-alt:auto;
+margin-left:18.0pt;text-align:justify;text-indent:-18.0pt;line-height:normal;
+mso-list:l0 level1 lfo1;tab-stops:list 36.0pt'><![if !supportLists]><span
+style='font-size:10.0pt;mso-bidi-font-size:12.0pt;font-family:Symbol;
+mso-fareast-font-family:Symbol;mso-bidi-font-family:Symbol;color:black;
+mso-themecolor:text1;mso-fareast-language:ES-MX'><span style='mso-list:Ignore'>·<span
+style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span></span><![endif]><span style='font-size:12.0pt;font-family:"Century Gothic",sans-serif;
+mso-fareast-font-family:"Times New Roman";mso-bidi-font-family:"Times New Roman";
+color:black;mso-themecolor:text1;mso-fareast-language:ES-MX'>&lt;strike&gt;<o:p></o:p></span></p>
+
+<p class=MsoNormal style='mso-margin-top-alt:auto;mso-margin-bottom-alt:auto;
+margin-left:18.0pt;text-align:justify;text-indent:-18.0pt;line-height:normal;
+mso-list:l0 level1 lfo1;tab-stops:list 36.0pt'><![if !supportLists]><span
+style='font-size:10.0pt;mso-bidi-font-size:12.0pt;font-family:Symbol;
+mso-fareast-font-family:Symbol;mso-bidi-font-family:Symbol;color:black;
+mso-themecolor:text1;mso-fareast-language:ES-MX'><span style='mso-list:Ignore'>·<span
+style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span></span><![endif]><span style='font-size:12.0pt;font-family:"Century Gothic",sans-serif;
+mso-fareast-font-family:"Times New Roman";mso-bidi-font-family:"Times New Roman";
+color:black;mso-themecolor:text1;mso-fareast-language:ES-MX'>&lt;<span
+class=SpellE>tt</span>&gt;<o:p></o:p></span></p>
+
+<p class=MsoNormal style='mso-margin-top-alt:auto;mso-margin-bottom-alt:auto;
+text-align:justify;line-height:normal'><span style='font-size:12.0pt;
+font-family:"Century Gothic",sans-serif;mso-fareast-font-family:"Times New Roman";
+mso-bidi-font-family:"Times New Roman";color:black;mso-themecolor:text1;
+mso-fareast-language:ES-MX'><o:p>&nbsp;</o:p></span></p>
+
+<p class=MsoNormal style='mso-margin-top-alt:auto;mso-margin-bottom-alt:auto;
+text-align:justify;line-height:normal'><span style='font-size:12.0pt;
+font-family:"Century Gothic",sans-serif;mso-fareast-font-family:"Times New Roman";
+mso-bidi-font-family:"Times New Roman";color:black;mso-themecolor:text1;
+mso-fareast-language:ES-MX'><o:p>&nbsp;</o:p></span></p>
+
+<p class=MsoNormal style='mso-margin-top-alt:auto;mso-margin-bottom-alt:auto;
+text-align:justify;line-height:normal'><span style='font-size:12.0pt;
+font-family:"Century Gothic",sans-serif;mso-fareast-font-family:"Times New Roman";
+mso-bidi-font-family:"Times New Roman";color:black;mso-themecolor:text1;
+mso-fareast-language:ES-MX'><o:p>&nbsp;</o:p></span></p>
+
+<p class=MsoNormal style='mso-margin-top-alt:auto;mso-margin-bottom-alt:auto;
+text-align:justify;line-height:normal'><span style='font-size:12.0pt;
+font-family:"Century Gothic",sans-serif;mso-fareast-font-family:"Times New Roman";
+mso-bidi-font-family:"Times New Roman";color:black;mso-themecolor:text1;
+mso-fareast-language:ES-MX'><o:p>&nbsp;</o:p></span></p>
+
+<p class=MsoNormal style='mso-margin-top-alt:auto;mso-margin-bottom-alt:auto;
+text-align:justify;line-height:normal'><span style='font-size:12.0pt;
+font-family:"Century Gothic",sans-serif;mso-fareast-font-family:"Times New Roman";
+mso-bidi-font-family:"Times New Roman";color:black;mso-themecolor:text1;
+mso-fareast-language:ES-MX'><o:p>&nbsp;</o:p></span></p>
+
+<p class=MsoNormal style='mso-margin-top-alt:auto;mso-margin-bottom-alt:auto;
+text-align:justify;line-height:normal'><span style='font-size:12.0pt;
+font-family:"Century Gothic",sans-serif;mso-fareast-font-family:"Times New Roman";
+mso-bidi-font-family:"Times New Roman";color:black;mso-themecolor:text1;
+mso-fareast-language:ES-MX'><o:p>&nbsp;</o:p></span></p>
+
+<p class=MsoNormal style='mso-margin-top-alt:auto;mso-margin-bottom-alt:auto;
+text-align:justify;line-height:normal'><span style='font-size:12.0pt;
+font-family:"Century Gothic",sans-serif;mso-fareast-font-family:"Times New Roman";
+mso-bidi-font-family:"Times New Roman";color:black;mso-themecolor:text1;
+mso-fareast-language:ES-MX'><o:p>&nbsp;</o:p></span></p>
+
+<p class=MsoNormal style='mso-margin-top-alt:auto;mso-margin-bottom-alt:auto;
+text-align:justify;line-height:normal'><span style='font-size:12.0pt;
+font-family:"Century Gothic",sans-serif;mso-fareast-font-family:"Times New Roman";
+mso-bidi-font-family:"Times New Roman";color:black;mso-themecolor:text1;
+mso-fareast-language:ES-MX'><o:p>&nbsp;</o:p></span></p>
+
+<p class=MsoNormal style='mso-margin-top-alt:auto;mso-margin-bottom-alt:auto;
+text-align:justify;line-height:normal'><span style='font-size:12.0pt;
+font-family:"Century Gothic",sans-serif;mso-fareast-font-family:"Times New Roman";
+mso-bidi-font-family:"Times New Roman";color:black;mso-themecolor:text1;
+mso-fareast-language:ES-MX'><o:p>&nbsp;</o:p></span></p>
+
+<p class=MsoNormal style='mso-margin-top-alt:auto;mso-margin-bottom-alt:auto;
+text-align:justify;line-height:normal'><span style='font-size:12.0pt;
+font-family:"Century Gothic",sans-serif;mso-fareast-font-family:"Times New Roman";
+mso-bidi-font-family:"Times New Roman";color:black;mso-themecolor:text1;
+mso-fareast-language:ES-MX'><o:p>&nbsp;</o:p></span></p>
+
+<p class=MsoNormal style='text-align:justify'><b style='mso-bidi-font-weight:
+normal'><span style='font-size:18.0pt;line-height:107%;font-family:"Century Gothic",sans-serif;
+color:black;mso-themecolor:text1'>INTRODUCCION A LOS <span class=SpellE>API´s</span><o:p></o:p></span></b></p>
+
+<p class=MsoNormal style='text-align:justify'><span style='font-size:12.0pt;
+line-height:107%;font-family:"Century Gothic",sans-serif;color:black;
+mso-themecolor:text1'>¿Qué son las <span class=SpellE>APIs</span>? <o:p></o:p></span></p>
+
+<p class=MsoNormal style='text-align:justify'><span style='font-size:12.0pt;
+line-height:107%;font-family:"Century Gothic",sans-serif;color:black;
+mso-themecolor:text1'>Las Interfaces&nbsp;de <span class=SpellE>Programacion</span>
+de Aplicaciones (<span class=SpellE>APIs</span> por sus siglas en
+inglés)&nbsp;son construcciones disponibles en los lenguajes de programación
+que permiten a los desarrolladores crear funcionalidades complejas de una
+manera simple. Estas abstraen el código más complejo para proveer una sintaxis
+más fácil de usar en su lugar.<o:p></o:p></span></p>
+
+<p class=MsoNormal style='text-align:justify'><span style='font-size:12.0pt;
+line-height:107%;font-family:"Century Gothic",sans-serif;color:black;
+mso-themecolor:text1'>Como ejemplo, piensa en el suministro de electricidad de
+tu casa, apartamento, o cualquier otro edificio. Si quieres usar un
+electrodoméstico, simplemente lo conectas en un enchufe y funciona.&nbsp;No
+intentas conectarlo directamente a la fuente de alimentación — hacerlo sería
+muy ineficiente y, si no eres electricista, <span class=SpellE>dificil</span> y
+peligroso.<o:p></o:p></span></p>
+
+<p class=MsoNormal style='text-align:justify'><span style='font-size:12.0pt;
+line-height:107%;font-family:"Century Gothic",sans-serif;color:black;
+mso-themecolor:text1;mso-fareast-language:ES-MX;mso-no-proof:yes'><!--[if gte vml 1]><v:shapetype
+ id="_x0000_t75" coordsize="21600,21600" o:spt="75" o:preferrelative="t"
+ path="m@4@5l@4@11@9@11@9@5xe" filled="f" stroked="f">
+ <v:stroke joinstyle="miter"/>
+ <v:formulas>
+  <v:f eqn="if lineDrawn pixelLineWidth 0"/>
+  <v:f eqn="sum @0 1 0"/>
+  <v:f eqn="sum 0 0 @1"/>
+  <v:f eqn="prod @2 1 2"/>
+  <v:f eqn="prod @3 21600 pixelWidth"/>
+  <v:f eqn="prod @3 21600 pixelHeight"/>
+  <v:f eqn="sum @0 0 1"/>
+  <v:f eqn="prod @6 1 2"/>
+  <v:f eqn="prod @7 21600 pixelWidth"/>
+  <v:f eqn="sum @8 21600 0"/>
+  <v:f eqn="prod @7 21600 pixelHeight"/>
+  <v:f eqn="sum @10 21600 0"/>
+ </v:formulas>
+ <v:path o:extrusionok="f" gradientshapeok="t" o:connecttype="rect"/>
+ <o:lock v:ext="edit" aspectratio="t"/>
+</v:shapetype><v:shape id="Imagen_x0020_1" o:spid="_x0000_i1025" type="#_x0000_t75"
+ alt="https://mdn.mozillademos.org/files/14317/plug-socket.png" style='width:321.75pt;
+ height:216.75pt;visibility:visible;mso-wrap-style:square'>
+ <v:imagedata src="PERSONA%203_archivos/image001.png" o:title="plug-socket"/>
+</v:shape><![endif]--><![if !vml]><img border=0 width=429 height=289
+src="PERSONA%203_archivos/image002.jpg"
+alt="https://mdn.mozillademos.org/files/14317/plug-socket.png" v:shapes="Imagen_x0020_1"><![endif]></span><span
+style='font-size:12.0pt;line-height:107%;font-family:"Century Gothic",sans-serif;
+color:black;mso-themecolor:text1'><o:p></o:p></span></p>
+
+<p class=MsoNormal style='text-align:justify'><span style='font-size:12.0pt;
+line-height:107%;font-family:"Century Gothic",sans-serif;color:black;
+mso-themecolor:text1'>De la misma manera, si quisieras programar gráficos 3D,
+sería mucho más <span class=SpellE>facil</span> hacerlo usando una API escrita
+en un lenguaje de alto nivel como JavaScript o Python, en lugar de intentar
+escribir código de bajo nivel (por ejemplo: C o C++) que controle directamente
+la GPU del equipo&nbsp;u otras funciones gráficas.<o:p></o:p></span></p>
+
+<p class=MsoNormal style='text-align:justify'><span style='font-size:12.0pt;
+line-height:107%;font-family:"Century Gothic",sans-serif;color:black;
+mso-themecolor:text1'><o:p>&nbsp;</o:p></span></p>
+
+<p class=MsoNormal style='text-align:justify'><span style='font-size:12.0pt;
+line-height:107%;font-family:"Century Gothic",sans-serif;color:black;
+mso-themecolor:text1'><o:p>&nbsp;</o:p></span></p>
+
+<p class=MsoNormal><o:p>&nbsp;</o:p></p>
+
+</div>
+
+
+<h3 style="text-align: justify; margin-top: 20px;"> 
+		<H2 style="color:#d39d17">La API de golocalizacion en accion</H2>
+		<p>
+		La interfaz Geolocalización representa un objeto capaz de obtener mediante programación la posición del dispositivo.<br>
+		Se da acceso Web de la ubicación del dispositivo. Esto permite a un sitio Web o aplicación ofrecer resultados personalizados basados ​​en la ubicación del usuario.<br>
+		La API define tres métodos:<br>
+		
+		getCurrentPosition(): Recupera la posición actual y se ejecuta una sola vez.<br>
+		watchPosition(): Recupera y actualiza la posición actual a medida que cambia de posición.<br>
+		clearWatch(): Detiene la actualización de una vista (Watch) de posición.<br>
+		<img src="1.jpg" alt="html 5" width="200" height="253"><br>
+		Lo que hace esta pequeña porción de código es intentar obtener la posible ubicación y después llama la función localitation().  La consulta de ubicación se realiza de forma asincrónica para que otros procesos puedan seguir funcionando en la página, esto es para tener en cuenta para cuando se realice un despliegue de aplicaciones. Se ven una cantidad de datos interesantes pues el Geolocation object contiene una propiedad timestamp y otra llamada coordinates.<br>
+		Hablando un poco de algunas propiedades interesantes que arroja el objeto coordinates; puede contener valores nulos, lo que significa que no debemos asustarnos ya que esto funciona según las capacidades del hardware donde lo visualiza:<br>
+
+    		latitude (latitud): La posición norte-sur sobre la tierra.<br>
+    		longitude (Longitud): La posición de occidente a oriente sobre la tierra.<br>
+    		altitude (altitud): La altura de la posición, solo si el dispositivo de visualización tiene la capacidad de medir la altitud.<br>
+   		accuracy (exactitud): Precisión de las alturas, exactitud, que es medida en metros.<br>
+    		heading: Dirección y recorrido, medida en grados alrededor de un círculo.<br>
+    		speed (velocidad): La velocidad de desplazamiento en una partida determinada en metros por segundo.<br>
+		</p>
+		<h3 style="text-align: justify; margin-top: 20px;" >
+		<H2 style="color:#d39d17"> Web Workers </H2> 
+		<p>
+		Al ejecutar secuencias de comandos en una página HTML, la página deja de responder hasta que finaliza la secuencia de comandos.<br>
+		Un trabajador web es un JavaScript que se ejecuta en segundo plano, independientemente de otros scripts, sin afectar el rendimiento de la página. Puede continuar haciendo lo que quiera: hacer clic, seleccionar cosas, etc., mientras el trabajador web se ejecuta en segundo plano.<br>
+		Un worker es un objeto que se crea a través del constructor ( Worker()) este ejecuta un archivo javascript — este fichero contiene los scripts que se van a ejecutan en el hilo del worker; los workers se ejecutan en un contexto global diferente al actual del navegador window. Este contexto está representado por el objeto DedicatedWorkerGlobalScope en el caso de los workers dedicados (los workers standard utilizan un solo script; y los shared workers usan SharedWorkerGlobalScope).<br>
+		<H2 style="color:#130501">Browser Support</H2>
+		Los números en la tabla especifican la primera versión del navegador que es totalmente compatible con Web Workers.<br>
+		<img src="2.jpg" alt="html 5" width="900" height="100"><br>
+		<H2 style="color:#130501">Web Worker interfaces</H2>
+		AbstractWorker<br>
+    		Abstrae todas las propiedades y métodos comunes a toda clase de workers (i.e. Worker or SharedWorker).<br>
+		Worker<br>
+    		Representa el hilo del worker en ejecución, pudiendo pasar mensajes a este.<br>
+		WorkerLocation<br>
+    		Define la ruta absoluta del script que ejecuta el Worker.<br>
+		SharedWorker<br>
+    		Representa un tipo de worker al que se puede acceder desde distintos contextos de navegación, tanto de varias ventanas, iframes, y otros workers.<br>
+		WorkerGlobalScope<br>
+    		Representa el ámbito genérico de cualquier worker (similar a  Window en un contenido web normal). Los diferentes tipos de workers tienen objetos de ámbito que heredan de esta interfaz y añade características más específicas.<br>
+		DedicatedWorkerGlobalScope<br>
+    		Representa el ámbito de un worker dedicado, hereda de WorkerGlobalScope y añade algunas características.<br>
+		SharedWorkerGlobalScope<br>
+    		Representa el ámbito de un shared worke, hereda de WorkerGlobalScope y añade algunas características.<br>
+		WorkerNavigator<br>
+    		Representa la identidad y estado del user agent (El cliente):<br>
+		</p>
+		<h3 style="text-align: justify; margin-top: 20px;" >
+		<H2 style="color:#d39d17"> Almacenamiento Web </H2> 
+		<p>
+		Toda web consta de una serie de contenidos: texto, imágenes, vídeos, bases de datos y demás. Tales contenidos deben ser almacenados en algún lugar, de manera que los navegantes puedan acceder a ellos a través de Internet y visualizar las correspondientes páginas. El almacenaje con posibilidad de acceso a esos contenidos es lo que se conoce como alojamiento web o hosting.<br>
+		<H2 style="color:#130501">Cómo funciona un alojamiento web</H2>
+		El alojamiento web, conocido también como web hosting se lleva a cabo mediante una serie de servidores con los que es posible grabar todo tipo de información para que esta sea accesible a los usuarios a través de los navegadores. Dichos servidores son los equivalentes de grandes discos duros, como los que llevan los ordenadores, pero almacenados en grandes cantidades, conectados entre sí y a Internet y mantenidos en las condiciones más óptimas para que rindan al máximo sin producir problemas ni pérdidas de datos.<br>
+		En estos servidores quedarán almacenados los contenidos que hay que guardar, pero las condiciones y funcionalidades del hospedaje pueden variar en función de las necesidades de cada usuario. Por eso, antes de elegir un tipo de hosting concreto, es necesario valorar el uso que se va a hacer de dichos contenidos para tener una idea de las funciones que se pueden necesitar y las que no. A partir de esa valoración es posible escoger entre diferentes modalidades, entre las que se encuentran, en términos generales.<br>
+		</p>
+		<h3 style="text-align: justify; margin-top: 20px;" >
+		<H2 style="color:#d39d17"> CSS3 no forma parte de HTML5, pero está íntimamente relacionado </H2> 
+		<p>
+		CSS3 es una tecnología que ha tenido una evolución en el tiempo, que actualmente se encuentra en su versión 3, como su propio nombre indica.<br>
+		Sus siglas corresponden a “Cascading Style Sheets”, que tiene el siguiente significado:<br>
+
+    		Cascading, que significa que los estilos que aplicamos a los elementos de una página web se propagan a los elementos que contiene, se propagan en cascada.<br>
+    		Style, porque mediante CSS lo que hacemos es aplicar estilos visuales a los distintos elementos de nuestra página web.<br>
+   		Sheets, que significa hojas, porque los estilos de una página web se añaden en ficheros aparte, en ficheros con la extensión .css de manera general.<br>
+		CSS es un lenguaje de diseño gráfico que permite definir y crear la presentación de un documento estructurado escrito en un lenguaje de marcado. Es muy usado para establecer el diseño visual de los documentos web e interfaces de usuario escritas en HTML.<br>
+		
+		<H2 style="color:#130501">Funcionamiento</H2>
+		<img src="3.jpg" alt="html 5" width="400" height="400"><br>
+		Cuando desde un navegador, por ejemplo Chrome, solicitamos una página a través de una dirección, por ejemplo http://..../index.html, esta petición va a un servidor web, que nos devuelve la página que se ha solicitado.<br>
+
+		Para aplicar estilos en las páginas HTML, se utiliza un fichero aparte, una hoja de estilos con la extensión .css, por lo que cuando estos dos documentos llegan al navegador, va a leer el documento HTML, le aplica los estilos CSS y lo muestra.<br>
+		</p>
+		<h3 style="text-align: justify; margin-top: 20px;" >
+		<body>
+		
+
+		<div class="a">
+			<h3 style="text-align: justify; margin-top: 20px;" > 
+			<H2 style="color:#d39d17">Transformaciones CSS 2D y 3D</H2>
+			<p>
+				La propiedad transform de CSS nos permite poder rotar, cambiar la escala o sesgar un elemento de una página web.Un ejemplo puede ser el girar levemente una foto dentro de una página para conseguir un efecto estéticamente muy atractivo. También podemos  dar animación a las transformaciones:por ejemplo, mediante animación aplicada a la propiedad "scale" podemos conseguir un efecto de ampliación o reducción del tamaño de una imagen o de cualquier otro elemento. Podemos también añadir la propiedad "perspective" al efecto de transformación para simular la visión de un objeto en un espacio tridimensional, estático o en movimiento.
+				
+			</p>
+
+			<p>
+				<img src="https://msdn.microsoft.com/es-es/ie/hh749020.a-07(es-es,MSDN.10).jpg">
+			</p>
+			<br><br>
+			<p>
+				<H2 style="color:#d39d17">Fondos, bordes, colores RGBa, gradientes, sombras y esquinas redondeadas</H2>
+
+				Con CSS3 ahora es posible poder aplicar mejoras muy interesantes a la presencia visual de una página. Un ejemplo es la propiedad "border-radius", con la que podemos poner esquinas redondeadas a los objetos rectangulares, y también podemos crear muchos efectos nuevos, como gradientes de color o sombreados. Algunos efectos tradicionales, como background-image y la propiedad border han sido mejorados en CSS3. Podemos utilizar la propiedad border-image para utilizar imágenes como bordes de objetos, o añadir varias imágenes de fondo a un mismo contenedor, evitando así la limitación actual a una sola imagen que permite la propiedad background-image. La descripción del espacio de color RGBa es otra novedad de CSS3, ya que la "a" representa el grado de transparencia (o "alpha"). Con la notación RGBa de color ahora podemos aplicar efectos de transparencia a cualquier objeto de la página.
+
+			</p>
+			<p>
+				<img src="https://msdn.microsoft.com/es-es/ie/hh749020.a-08(es-es,MSDN.10).jpg">
+			</p>
+			<br>
+			<p>
+				<img src="https://www.the-art-of-web.com/images/webkit-effects.gif">
+			</p>
+		 
+
+		</div>
+		<br><br><br>
+		<div class="a">
+			<H2 style="color:#d39d17">Fuentes de letra Web @font-face</H2>
+			<p>
+				Cada vez está más extendido el soporte para añadir tipos de letra especiales a las páginas web mediante la propiedad @font-face, que permite especificar una fuente concreta y un enlace desde el cual el navegador pueda descargarla. Esta característica puede cambiar de forma radical el aspecto de las páginas web, pero lamentablemente también se ve afectada por los muchos problemas de compatibilidad con navegadores antiguos que se pueden ver en otras funcionalidades de HTML5.
+			</p>
+			<img src="data:image/jpeg;base64,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">	
+		</div>
+
+		<br><br><br>
+		<div class="a">
+			<H2 style="color:#d39d17">Animaciones con CSS</H2>
+
+			<p>
+				Ciertas tecnologías como Flash o Silverlight se han venido utilizando hasta ahora para animar objetos dentro de las páginas web. Ahora ya podemos conseguir algunos de estos efectos utilizando las reglas y propiedades de CSS3. En el futuro, el elemento Canvas de HTML5 y las transiciones de CSS3 permitirán crear elementos animados e interactivos sobre la página. Las animaciones de CSS, y el tema siguiente, las transiciones, probablemente estarán soportadas por la mayoría de los navegadores en los próximos años. En el momento de escribir esta guía, el estándar todavía no está cerrado por lo que no está soportado en todos los navegadores, en cualquier caso puedes empezar a probar algunos ejemplos con la platform preview de Internet Explorer 10.
+			</p>
+			<img src="https://msdn.microsoft.com/es-es/ie/hh749020.a-10(es-es,MSDN.10).jpg">
+
+		</div>
+		<br><br><br>
+		<div class="a">
+			<H2 style="color:#d39d17">¿Quién utiliza HTML5 a día de hoy?</H2>
+			<p>
+				Difícil de responder debido a que no existe una definición única para "HTML5". Existen numerosas demos de HTML5 que no se podrían poner en entornos en producción debido al distinto grado de soporte que ofrecen los navegadores. Si se decide incorporar funciones de estilo de CSS3, hay muchos sitios web personales y de empresas que utilizan los elementos más vistosos, como border-radius o las funciones de transformación. En estos casos, los diseñadores pueden utilizar las funcionalidades y añadir alternativas adicionales para asegurarse de que la restitución de estas páginas en navegadores no compatibles no es demasiado diferente de cómo se ven en los navegadores más modernos.
+			</p>
+			<br><br>
+			<p>
+				Un área donde el uso de las funcionalidades de HTML5 está siendo muy activo es entre los dispositivos móviles y smartphones. En este mundo podemos encontrar aplicaciones web que aprovechan las ventajas de los nuevos tags de Video o Audio, puesto que ciertos dispositivos como Windows Phone o iPhone soportan HTML5 pero no soportan complementos como Flash o Silverlight.
+			</p>
+			<br><br>
+			
+			
+		</div>
+		
+		<h3 style="text-align: justify; margin-top: 20px;" > 
+			<H2 style="color:#d39d17">Conclusiones</H2>
+				
+				<p><b>Gabriel Alejandro Garza Gallegos 1800790:</b></p>Gracias a esta resumen realizado a partir de la primer leccion del curso, aprendi mucho sobre el html y sus utilidades ademas de sus aplicaciones y como interactua con otros elementos 
+				como lo son el CSS JS, entre otros. Tambien se vio lo que son las api, como el html necesita de plug ins para poder mostrar archivos multimedia entre otros.<br> <p></p>
+				
+				<p><b>Erick Francisco Villa Carrillo 1735681:</b></p>Con la siguiente investigacion me e dado cuenta que dentro de la programacion hay muchas aplicaciones y funcionamientos que puedes hacer para diferentes tipos de trabajos segun lo que deses hacer. 
+				Vimos lo que eran las API de geolocalizacion que sirven para saber la localizacion de un usuario, al igual que esta se puede tener un uso malo ya que existen programas como trape que se encargan de hackear a los usuarios y saber la ubicacion en tiempo real, eso da a entender que dentro de la programacion avanza mucho y muy rapido. Esto da a entender que cada programa que va saliendo lo adaptan a lo mas reciente y como podemos usar las aplicaciones en programacion para poder desempeñarnos mas y enfocarno a esa vision.
+				
+				<p><b>Jesús Jalil Romero Lara 1807390:</b></p>He llegado a la conclusión de que el lenguaje HTML5 ha llegado con diversas actualizaciones respecto al HTML 4.0, me impresionó ver que ya no es necesario la etiqueta div para dividir información por lo que con esta innovación podemos usar header, section, article, aside, footer, nav entre otros y cada uno de estos incluye una mejora en la separación de los mismos, esto me ayudó a pensar acerca que toda las tecnologías emergentes siempre están en una mejora continua.
+				
+				<p><b>Andrés Arrazola y Meza 1884455:</b></p>Con esto podemos recabar las mejoras que lleva el html5, cuales son las herramientas que nos llega brindar y como podemos usarlas adecuada mente, aparte de instrucciones que antes no se usaban de una forma ahora si se llegan a utilizar. también vemos mejoras al momento de usar css ya que también tiene que ir actualizándose debido a las mejoras del HTML5.
+				
+				<p><b>Sergio Manuel Zamarrón Álvarez 1652329:</b></p>A pesar de las implementaciones inconsistentes del navegador de sus características, HTML5 es una tecnología emocionante para crear nuevas y potentes aplicaciones basadas en el navegador.Como mencioné anteriormente, estas aplicaciones incluso pueden ejecutarse en teléfonos inteligentes.Si no está convencido de desarrollar aplicaciones de teléfonos inteligentes basadas en HTML5, consulte el artículo de Alex Kessinger " Cómo hacer una aplicación HTML5 para iPhone ".<p></p>
+
+				Como un incentivo adicional para desarrollar sus propias aplicaciones HTML5, Mozilla anunció recientemente (al momento de escribir esto) que está abriendo una tienda de aplicaciones para vender o regalar aplicaciones web. Consulte el artículo de The Register " Mozilla Preempts Google With 'Open' Web App Store Prototype " para obtener más información sobre el anuncio de Mozilla.
+
+				<p></p>Ahora que ha adquirido cierta información sobre HTML5 y ha aprendido sobre el diseño de aplicaciones HTML5, y dado el hecho de que existe la posibilidad de monetizar sus creaciones, no hay razón para retrasar el salto al desarrollo de aplicaciones HTML5. Te deseo la mejor de las suertes.
+
+		
+
+		
+
+
+ 
+
+</BODY>
+
+</HTML>
