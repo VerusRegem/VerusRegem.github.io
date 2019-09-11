@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<HEAD>
+
+<TITLE> Resumen Leccion 3 </TITLE>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/
+</HEAD>
+
+
+<BODY style="background-color:#ffffa2;">
+
+  <tr>
+    <td width="89"><a href="index.html"><center>Principal</center></a></td>
+  </tr>
+</table>
+ <table align="right" width="99" border="1">
+  <tr>
+    <td width="89"><a href="Prac4.html"><center>Página 4</center></a></td>
+  </tr>
+</table>
+<table align="left" width="99" border="1">
+  <tr>
+    <td width="89"><a href="Prac2.html"><center>Página 2</center></a></td>
+  </tr>
+</table>
+	<style>
+			div.a
+			{
+				text-align: center;
+			}
+		</style>
+
+<H1 style="color:#d39d17"> CSS (Cascading style sheet) </H1>
+
+<h3  style="text-align: justify; margin-top: 20px;" >CSS nos permite definir estilos para tipos de letra, modificando el tamaño y la fuente, pero hay otros estilos no tan obvios. Por ejemplo: el estilo por defecto para un elemento heading 1 incluye unos márgenes de 10 pixels por encima y por debajo del texto. Si queremos modificar el estilo de h1 para que no lleve márgenes, tendremos que indicar de manera explícita unas reglas que conviertan dichos valores a cero.
+</h3>
+<h2 style=" color: #0000FF; text-align: justify; margin-top: 20px;"  >Ejemplos de la estructura de un CSS interno.<br></h2>
+<h3  style="text-align: justify; margin-top: 20px; "> Una regla CSS para anular los márgenes superior e inferior de los elementos heading 1 es así:
+<br>h1 llave <br>
+   margin-top:0px;<br>
+   margin-bottom:0px;<br>
+   background-color:#ff00ff;<br>
+   font-family: Arial;<br>
+llave<br></h3>
+<h2 style=" color: #0000FF; text-align: justify; margin-top: 20px;"  >Un poco de historia del CSS.<br></h2>
+<h3 style="text-align: justify; margin-top: 20px; padding-right : 20px;"> El CSS nos sirvio para la creatividad del programador web,  Aunque en este resumen se abordaran temas relacionados a crear un diseño visual de página utilizando estilos CSS, debes saber que esto no ha sido siempre la técnica normal. Cuando se empezó con el diseño web a mediados de los 90, el único método que se podía emplear para crear estructuras visuales complejas, como por ejemplo la presentación en varias columnas, consistía en emplear el elemento tabla (table). La tabla HTML estaba pensada inicialmente para mostrar datos de manera estructurada, en filas, columnas y celdas. Sin embargo los diseñadores empezaron a utilizar este elemento como base para las estructuras visuales de las páginas. En aquel momento esa técnica estaba plenamente justificada: las tablas era lo único que tenían para generar el tipo de diseños que se necesitaban y, además, eran un recurso extremadamente flexible.<br> CSS ha sustituido ya el empleo de tablas para organizar las páginas, por lo que los elementos de tabla de HTML van regresando, poco a poco, a su función original, que es la de mostrar datos estructurados, y abandonan su papel como armazón visual de las páginas. Seguramente podrás seguir encontrando numerosos ejemplos de este tipo de estructuras en la web, pero en este libro no vas a aprender a crearlas, sino que vas a aprender los conceptos básicos de CSS que nos permiten obtener los mismos resultados.</h3>
+<img style="float:right;" src="https://msdn.microsoft.com/es-es/ie/hh749022.c-03(es-es,MSDN.10).jpg"width="450" height="350";padding-right : 20px; title = "Tabla con atributos"/></div>
+<h3 style="text-align: justify; margin-top: 20px;padding-right : 20px;">La propiedad float en CSS hace posible que un texto pueda escribirse alrededor de una imagen. Este estilo ha sido tomado del diseño de imprenta, donde a este efecto se le llama “justificación” del texto. CSS consigue el mismo efecto haciendo que los elementos que siguen a un elemento “flotante” puedan rodearlo, cambiando su posición relativa con respecto a él. Este comportamiento también nos sirve para crear columnas en una página.
+En la imagen de la izquierda hay un gráfico anidado dentro de un párrafo. El gráfico ocupa un espacio vertical completo y el texto posterior se empieza a escribir a partir de su esquina inferior derecha, ya que no se ha aplicado aquí la propiedad float. En la imagen de la derecha, los elementos son los mismos, pero hemos aplicado la regla float: right al gráfico. El gráfico se desplaza a la derecha todo lo que puede y el texto se escribe a su izquierda a partir del primer punto disponible de su contenedor (en este caso, la esquina superior izquierda del div contenedor).(JUSTO COMO HICE CON LA IMAGEN =====>)</h3>
+
+<h3 style="text-align: justify; margin-top: 20px;padding-right : 20px;">
+  	<h3 style="text-align: justify; margin-top: 20px; padding-right : 20px;"> 
+	<H2 style="color:#4633ff"> ¿Que es un CSS?</H2>
+	<h3 style="text-align: justify; font-family: Times New Roman;color: #ff3333;">
+	<p>
+	CSS, es una tecnología que nos permite crear páginas web de una manera más exacta. Gracias a las CSS somos mucho más dueños de los resultados finales de la página, pudiendo hacer muchas cosas que no se podía hacer utilizando solamente HTML, como incluir márgenes, tipos de letra, fondos, colores...<br>
+
+	CSS son las siglas de Cascading Style Sheets, en español Hojas de estilo en Cascada. En este reportaje vamos a ver algunos de los efectos que se pueden crear con las CSS sin necesidad de conocer la tecnología entera.<br>
+    	
+	Las Hojas de Estilo en Cascada se escriben dentro del código HTML de la página web, solo en casos avanzados se pueden escribir en un archivo a parte y enlazar la página con ese archivo. En un principio vamos a utilizar la manera más directa de aplicar estilos a los elementos de la página, mas adelante veremos la declaración en archivos externos. Para ello, y esto es la primera lección de este artículo, vamos a conocer un nuevo atributo que se puede utilizar en casi todas las etiquetas HTML: style.<br>
+	
+	</p>
+	<br>
+	<br>
+	<style>
+			div.a
+			{
+				text-align: center;
+			}
+		</style>
+
+		<div class="a">
+			<h3 style="text-align: center; margin-top: 20px;" > 
+			<H2 style="color:#d39d17">w3schools acerca del CSS</H2>
+			<p>
+				CSS es un lenguaje que describe el estilo de un documento de html.
+			
+				el CSS es lo que describe como los elementos del HTML seran presentados  
+				
+			</p>
+
+			<br><br>
+			<p>
+				<H2 style="color:#d39d17">What is CSS?s</H2>
+
+				<ul> Hoja de estilos en cascada</ul>
+				<ul>CSS describe como los elementos HTML son mostrados en la pantalla, papel o cualquier otro tipo de representacion</ul>
+				<ul>CSS nos ayuda a ahorrarnos trabajo puesto que puede controlar multiples paginas web al mismo tiempo.</ul>
+				<ul>Hojas de estilo externas son almacendadas en los archivos CSS</ul>
+
+			</p>
+			
+			<br>
+		 
+		</div>
+		<br><br><br>
+		<div class="a">
+			<H2 style="color:#d39d17">Por que usar CSS?</H2>
+			<p>
+				CSS es utilizado para definir el estilo de tu pagina web, incluyendo el diseño, formacion y variaciones en el display para diferentes dispositivos y tamaños de pantalla. 
+			</p>
+		</div>
+
+		<br><br><br>
+		<div class="a">
+			<H2 style="color:#d39d17">El CSS resolvio un gran problema</H2>
+
+			<p>
+				HTML nunca fue diseñado para contener etiquetas para formatear una pagina web!
+
+				HTML fue creado para describir el contenido de la pagina web, por ejemplo:
+
+				< h1>Esto es un encabezado</ h1>
+
+				< p>Este es un parrafo.</ p>
+
+				Cuando etiquetas como <font>, y atributos de colores fueron agregadas a las especificaciones el HTML 3.2, comenzo una pesadilla para los desarrolladores web. Desarrollo de sitios web graindes, donde fuentes e informacion de color fueron agregados a cada pagina,esto se convirto en un proceso extenso y caro.
+
+				para resolver este problema, el consortium de la web global (w3c por sus siglas en ingles) creo el CSS.
+
+				Con esto el CSS removio el formateo de stilo de la pagina de HTML!
+			</p>
+			
+		</div>
+		<br><br><br>
+		<div class="a">
+			<H2 style="color:#d39d17">Syntax del CSS?</H2>
+			<p>
+				Las reglas del CSS consiste en un selector y un bloque de declaraciones</p>
+			<img src="https://www.w3schools.com/css/selector.gif">
+			<br><br>
+			<p>
+				El selector apunta hacia a el elemento de HTML que quieres estilizar. El bloque de declaracion contiene una o mas declaraciones separadas por puntos y comas. Cada declaracion incluye una propiedad de CSS y su valor, separados por una coma. Una declaracion de CSS siempre termina con un punto y coma y los bloques de declaracion son rodeados por llaves. 
+			</p>
+			<br><br>
+			
+			
+		</div>
+	
+	<h3 style="text-align: justify; margin-top: 20px; padding-right : 20px;"> 
+	<H2 style="color:#4633ff"> Conclusion </H2>
+	<h3 style="text-align: justify; font-family: Times New Roman;color: black;">
+
+
+<h2><b>CONCLUSIONES</b></h2>
+<b>Andrés Arrazola y Meza	1884455:</b>
+	<br>Con lo que e leido y visto que las paginas tambien se pueden modificar para tener una mejor vista a este proceso se le llama CSS.<br>
+	Se pueden modificar color de letra, tamaño, fuente, entre vriasa cosas, es una muy buena herramienta para que la pagina web tenga una mejor vista para el usuario.<br>
+	lo estare utilizando de ahora en adelante para mis trabajos y me podra servir entrando al area laboral y me pidan modificaciones de este tipo.<br>
+	<p></p>
+<b>Jesús Jalil Romero Lara	1807390:</b>
+	<br>
+	He concluido que el CSS es una nueva puerta para la edición de páginas Webs, gracias a esta podemos darle un estilo más profesional a nuestra página o dominio web
+	Me pareció genial ver qué podemos cambiar la letra, el color, el tamaño entre otras características.<br>
+	<p></p>
+<b>Gabriel Alejandro Garza Gallegos 1800790</b>	
+	<br> Al terminar esta leccion aprendi la importancia del uso del CSS en las paginas web, sus utilidades eh implementaciones en sitos en linea, aun cuando se dificulte un poco por 
+		 falta de practica solamente es de reforzar y puedo concluir que el CSS es un elemento vital en el desarrollo web
+
+</h3>
+
+ 
+
+</BODY>
+
+</HTML>
