@@ -1,0 +1,485 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<HEAD>
+
+<TITLE> Resumen Leccion 2 </TITLE>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/
+</HEAD>
+<style>
+h3{
+font-family:"Verdana";
+}
+h4{
+font-family:"Elephant";
+
+}
+</style>
+<BODY style="background-color:white">
+  <tr>
+    <td width="89"><a href="index.html"><center>Principal</center></a></td>
+  </tr>
+</table>
+ <table align="right" width="99" border="1">
+  <tr>
+    <td width="89"><a href="Prac5.html"><center>Página 5</center></a></td>
+  </tr>
+</table>
+<table align="left" width="99" border="1">
+  <tr>
+    <td width="89"><a href="Prac3.html"><center>Página 3</center></a></td>
+  </tr>
+</table>
+
+
+
+<br>
+<H1 style="color:#d39d17"><u> Estructura HTML</u> </H1>
+
+<p style="text-align: justify; margin-top: 20px; padding-right : 20px;">
+	Uno de los conceptos imprescindibles que debemos dominar a la hora de diseñar contenidos web es la estructura anidada de los documentos HTML. Los elementos suelen presentarse contenidos unos dentro de otros. Por lo general tenemos que empezar por diseñar la estructura HTML de la página para después continuar con los estilos, aplicando CSS.
+
+En este ejemplo podemos ver los elementos más básicos que nos vamos a encontrar en prácticamente toda página web:
+<br>
+abrir html <br>
+    &nbsp;&nbsp; abrir body<br>
+	 &nbsp;&nbsp; &nbsp;  &nbsp; Parrafo x<br>
+    &nbsp;&nbsp; cerrar body<br>
+ cerrar html<br><br>
+El elemento body está anidado es decir incluido dentro del elemento html. En términos de programación, body está colocado entre la etiqueta de apertura html y la de cierre /html, y por eso decimos que las etiquetas anidadas son las que se encuentran entre otras etiquetas de apertura y cierre. Ambos elementos, body y html, forman la estructura básica de toda página web. Cuando un navegador abre un documento HTML busca esta estructura.
+</p>
+<br><br>
+<img style="float" src="http://3.bp.blogspot.com/-jhbhn_y4snw/UZ1uAlo_rII/AAAAAAAAAHo/S7bG3mj6YGM/s1600/ie_1.png"width="450" height="350";padding-right : 20px; title = "Ejemplo de pagina web basica"/></div>
+
+
+<h2 style=" color: #d39d17; text-align: justify; margin-top: 20px;"  ><u>Como insertar imagenes en HTML.</u><br></h2>
+<p style="text-align: justify; margin-top: 20px; padding-right : 20px;">
+	Para colocar imágenes dentro de un documento HTML se utiliza la etiqueta img. Al igual que ocurre con la etiqueta "< a >", la etiqueta de imagen por sí sola no hace nada. Depende del valor de los atributos que especifiquemos, que indican qué imagen se debe mostrar y cómo ha de hacerse. Aquí vamos a insertar una imagen en nuestro documento HTML.
+</p>
+
+<p style="text-align: justify; margin-top: 20px; padding-right : 20px;">
+	A continuacion veremos el formato recomendado para agregar una imagen a cualquier pagina web <br>(img src="User/images/imagenejemplo.jpg" ) Este es un ejemplo para demostrar el formato de insertar imagenes en el HTML sin usar CSS, dicha línea le indica al navegador que busque dentro del equipo user en la carpeta images y presente en pantalla el archivo imagenejemplo.jpg. En los pasos siguientes debemos asegurarnos de que se mantiene el espacio en blanco de separación entre la comilla y el cierre de la etiqueta. Ahora vamos a añadir un atributo alt, dicho atributo representa el texto alternativo a la imagen, y es obligatorio añadirlo para mantener la validez de la página. Este atributo es muy útil para las personas que utilizan sistemas de lectura de pantalla para navegar por la Web, ya que permite convertir a voz el texto indicado como valor. También sirve para dar un contenido al espacio vacío que se genera cuando, la imagen no se puede representar (porque el enlace está roto o el archivo tiene un formato incorrecto, por ejemplo)
+</p>
+
+ <p style="text-align: justify; margin-top: 20px; padding-right : 20px;">
+ 	Tanto el atributo src como el alt son obligatorios bajo XHTML. Hay también otros atributos, opcionales, que podemos utilizar.<br> Vamos a ver dos de ellos: height y width.<br><br>
+ </p> <br>
+ <p style="text-align: justify; margin-top: 20px; padding-right : 20px;">
+ 	Por lo que te sugiero Regresar al editor de textos y pon el cursor a la derecha de las últimas comillas que siguen al atributo alt, inserta un espacio y escribe lo siguiente: width="296" height="250". Estos dos atributos indican al navegador las dimensiones que tendrá esta imagen en pantalla (ancho y alto respectivamente),<i> por ejemplo la imagen que anexamos arriba tiene de propiedades 450 y 350 respectivamente.</i>  Estos atributos le indican al navegador las dimensiones que tendrá la imagen en pantalla (que no necesariamente tienen que coincidir con las dimensiones originales), y aunque estos valores son opcionales, ayudan a restituir la página de manera más eficiente y siempre que sea posible, debemos utilizarlos.
+ </p><br><br>
+ <p class=MsoNormal align=center style='text-align:center'><b style='mso-bidi-font-weight:
+normal'><span style='font-size:28.0pt;mso-bidi-font-size:12.0pt;line-height:
+107%;font-family:"Century Gothic",sans-serif;color:black;mso-themecolor:text1'>PAPEL
+CSS<o:p></o:p></span></b></p>
+
+<p style='margin-top:7.5pt;margin-right:0cm;margin-bottom:11.25pt;margin-left:
+0cm;text-align:justify;background:white'><strong><span style='font-family:"Century Gothic",sans-serif;
+mso-bidi-font-family:Tahoma;color:black;mso-themecolor:text1'>DEFINICIÓN O
+CONCEPTO DE CSS</span></strong><span style='font-family:"Century Gothic",sans-serif;
+mso-bidi-font-family:Tahoma;color:black;mso-themecolor:text1'><o:p></o:p></span></p>
+
+<p style='margin-top:7.5pt;margin-right:0cm;margin-bottom:11.25pt;margin-left:
+0cm;text-align:justify;background:white;font-variant-ligatures: normal;
+font-variant-caps: normal;orphans: 2;widows: 2;-webkit-text-stroke-width: 0px;
+text-decoration-style: initial;text-decoration-color: initial;word-spacing:
+0px'><span style='font-family:"Century Gothic",sans-serif;mso-bidi-font-family:
+Tahoma;color:black;mso-themecolor:text1'>CSS es un lenguaje utilizado en la
+presentación de documentos HTML. Un documento HTML viene siendo coloquialmente
+“una página web”. Entonces podemos decir que el lenguaje CSS sirve para
+organizar la presentación y aspecto de una página web. Este lenguaje es
+principalmente utilizado por parte de los navegadores web de internet y por los
+programadores web informáticos para elegir multitud de opciones de presentación
+como colores, tipos y tamaños de letra, etc.<o:p></o:p></span></p>
+
+<p class="MsoNormal" style="margin-top:7.5pt;margin-right:0cm;margin-bottom:11.25pt;
+margin-left:0cm;text-align:justify;line-height:normal;background:white"><span style="font-size:12.0pt;font-family:&quot;Century Gothic&quot;,sans-serif;mso-fareast-font-family:
+&quot;Times New Roman&quot;;mso-bidi-font-family:Tahoma;color:black;mso-themecolor:text1;
+mso-fareast-language:ES-MX">1-&nbsp;<b>Definición en línea:</b>&nbsp;En este
+método se define las propiedades de la etiqueta HTML con el atributo <span class="SpellE">style</span> dentro del mismo archivo HTML y se le asigna una
+determinada cadena que definiría el comportamiento. Ejemplo: &lt;p <span class="SpellE">style</span>="<span class="SpellE"><span class="GramE">color:red</span></span>;"&gt;<o:p></o:p></span></p>
+<p class="MsoNormal" style="margin-top:7.5pt;margin-right:0cm;margin-bottom:11.25pt;
+margin-left:0cm;text-align:justify;line-height:normal;background:white"><span style="font-size:12.0pt;font-family:&quot;Century Gothic&quot;,sans-serif;mso-fareast-font-family:
+&quot;Times New Roman&quot;;mso-bidi-font-family:Tahoma;color:black;mso-themecolor:text1;
+mso-fareast-language:ES-MX">En este ejemplo asignamos en línea a la etiqueta p
+el <span class="SpellE">style</span> (<span class="SpellE">style</span> es estilo
+en inglés) definido, en el que la propiedad color toma el valor red de modo que
+el texto se mostrará en rojo. Esta opción de definición, es rápida y para
+pequeñas cosas o reparaciones de mantenimiento web puede ser útil, pero si se
+abusa de esta técnica tendremos una página web muy poco legible ya que
+tendremos en un mismo archivo el contenido de la página web junto con su
+presentación. Hacer cambios en la presentación se hace entonces más complicado,
+al tener que ir revisando todas las etiquetas que queramos cambiar una por una.<o:p></o:p></span></p>
+
+<p class=MsoNormal style='margin-top:7.5pt;margin-right:0cm;margin-bottom:11.25pt;
+margin-left:0cm;text-align:justify;line-height:normal;background:white'><span
+style='font-size:12.0pt;font-family:"Century Gothic",sans-serif;mso-fareast-font-family:
+"Times New Roman";mso-bidi-font-family:Tahoma;color:black;mso-themecolor:text1;
+mso-fareast-language:ES-MX'>2-&nbsp;<b>Definición hoja de estilos <span
+class=SpellE><span class=GramE>interna:<span style='font-weight:normal'>En</span></span></span></b>
+este método se definen las propiedades de estilo de la misma manera que
+hacíamos en el archivo <span class=SpellE>css</span> independiente, pero en
+este caso se hace en la misma página entre las etiquetas &lt;head&gt; y
+&lt;/head&gt;, como vemos en el siguiente ejemplo.<o:p></o:p></span></p>
+
+<div align=center>
+
+<table class=MsoNormalTable border=1 cellspacing=0 cellpadding=0 width=669
+ style='width:501.75pt;background:#BDBDBD;border-collapse:collapse;mso-yfti-tbllook:
+ 1184;mso-padding-alt:5.25pt 5.25pt 5.25pt 5.25pt'>
+ <tr style='mso-yfti-irow:0;mso-yfti-firstrow:yes;mso-yfti-lastrow:yes'>
+  <td valign=top style='padding:5.25pt 5.25pt 5.25pt 5.25pt'>
+  <p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;text-align:
+  justify;line-height:15.6pt'><span style='font-size:12.0pt;font-family:"Century Gothic",sans-serif;
+  mso-fareast-font-family:"Times New Roman";mso-bidi-font-family:"Times New Roman";
+  color:black;mso-themecolor:text1;mso-fareast-language:ES-MX'>&lt;!DOCTYPE <span
+  class=SpellE>html</span>&gt;<br>
+  &lt;<span class=SpellE>html</span>&gt;<br>
+  &nbsp;&nbsp; &nbsp;&lt;head&gt;<br>
+  &nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;<span class=SpellE>title</span>&gt;Ejemplo
+  aplicación CSS - aprenderaprogramar.com&lt;/<span class=SpellE>title</span>&gt;<o:p></o:p></span></p>
+  <p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;text-align:
+  justify;line-height:15.6pt'><span style='font-size:12.0pt;font-family:"Century Gothic",sans-serif;
+  mso-fareast-font-family:"Times New Roman";mso-bidi-font-family:"Times New Roman";
+  color:black;mso-themecolor:text1;mso-fareast-language:ES-MX'>&nbsp;&nbsp;
+  &nbsp;&nbsp;&nbsp;&nbsp; </span><span lang=EN-US style='font-size:12.0pt;
+  font-family:"Century Gothic",sans-serif;mso-fareast-font-family:"Times New Roman";
+  mso-bidi-font-family:"Times New Roman";color:black;mso-themecolor:text1;
+  mso-ansi-language:EN-US;mso-fareast-language:ES-MX'>&lt;style&nbsp;type=&quot;text/<span
+  class=SpellE>css</span>&quot;&gt;<o:p></o:p></span></p>
+  <p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;text-align:
+  justify;line-height:15.6pt'><span lang=EN-US style='font-size:12.0pt;
+  font-family:"Century Gothic",sans-serif;mso-fareast-font-family:"Times New Roman";
+  mso-bidi-font-family:"Times New Roman";color:black;mso-themecolor:text1;
+  mso-ansi-language:EN-US;mso-fareast-language:ES-MX'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+  p{<span class=SpellE><span class=GramE>color:red</span></span>;}<o:p></o:p></span></p>
+  <p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;text-align:
+  justify;line-height:15.6pt'><span lang=EN-US style='font-size:12.0pt;
+  font-family:"Century Gothic",sans-serif;mso-fareast-font-family:"Times New Roman";
+  mso-bidi-font-family:"Times New Roman";color:black;mso-themecolor:text1;
+  mso-ansi-language:EN-US;mso-fareast-language:ES-MX'>&nbsp;&nbsp;
+  &nbsp;&nbsp;&nbsp;&nbsp; &lt;/style&gt;<o:p></o:p></span></p>
+  <p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;text-align:
+  justify;line-height:15.6pt'><span lang=EN-US style='font-size:12.0pt;
+  font-family:"Century Gothic",sans-serif;mso-fareast-font-family:"Times New Roman";
+  mso-bidi-font-family:"Times New Roman";color:black;mso-themecolor:text1;
+  mso-ansi-language:EN-US;mso-fareast-language:ES-MX'>&nbsp;&nbsp;&nbsp;&nbsp;&lt;/head&gt;<br>
+  &nbsp;&nbsp; &nbsp;&lt;body&gt;<o:p></o:p></span></p>
+  <p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;text-align:
+  justify;line-height:15.6pt'><span lang=EN-US style='font-size:12.0pt;
+  font-family:"Century Gothic",sans-serif;mso-fareast-font-family:"Times New Roman";
+  mso-bidi-font-family:"Times New Roman";color:black;mso-themecolor:text1;
+  mso-ansi-language:EN-US;mso-fareast-language:ES-MX'>&nbsp;&nbsp;
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;p&gt;<span class=SpellE>Texto</span> <span
+  class=SpellE>ejemplo</span>&nbsp;&lt;/p&gt;<o:p></o:p></span></p>
+  <p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;text-align:
+  justify;line-height:15.6pt'><span style='font-size:12.0pt;font-family:"Century Gothic",sans-serif;
+  mso-fareast-font-family:"Times New Roman";mso-bidi-font-family:"Times New Roman";
+  color:black;mso-themecolor:text1;mso-fareast-language:ES-MX'>&lt;/<span
+  class=SpellE>body</span>&gt;<br>
+  &lt;/<span class=SpellE>html</span>&gt;<o:p></o:p></span></p>
+  </td>
+ </tr>
+</table>
+
+</div>
+<p class=MsoNormal style='margin-top:7.5pt;margin-right:0cm;margin-bottom:11.25pt;
+margin-left:0cm;text-align:justify;line-height:normal;background:white'><span
+style='font-size:12.0pt;font-family:"Century Gothic",sans-serif;mso-fareast-font-family:
+"Times New Roman";mso-bidi-font-family:Tahoma;color:black;mso-themecolor:text1;
+mso-fareast-language:ES-MX'>Como podemos observar definimos el estilo dentro de
+las etiquetas &lt;head&gt; y &lt;/head&gt;. Para delimitar lo que es definición
+de estilos se usa la etiqueta &lt;<span class=SpellE>style</span>&gt; y &lt;/<span
+class=SpellE>style</span>&gt; a modo de apertura y cierre de la definición de
+estilos. El código se escribe igual que en el archivo <span class=SpellE>css</span>
+y aunque no es igual de independiente, esta forma de definición al menos es
+algo más separada y legible que la anterior opción ya que la definición de la
+presentación al menos no se mezcla con el contenido de la página web<o:p></o:p></span></p>
+ES-MX'>¿Cómo se usa el CSS en las páginas?<o:p></o:p></span></b></p>
+
+<p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;text-align:
+justify;line-height:normal'><span style='font-size:12.0pt;font-family:"Century Gothic",sans-serif;
+mso-fareast-font-family:"Times New Roman";mso-bidi-font-family:Arial;
+color:black;mso-themecolor:text1;mso-fareast-language:ES-MX'><br>
+Se puede aplicar CSS para formatear cualquier documento HTML, de tres formas:<br>
+</span><b style='mso-bidi-font-weight:normal'><span style='font-size:18.0pt;
+mso-bidi-font-size:12.0pt;font-family:"Century Gothic",sans-serif;mso-fareast-font-family:
+"Times New Roman";mso-bidi-font-family:Arial;color:black;mso-themecolor:text1;
+mso-fareast-language:ES-MX'>1-</span></b><span style='font-size:18.0pt;
+mso-bidi-font-size:12.0pt;font-family:"Century Gothic",sans-serif;mso-fareast-font-family:
+"Times New Roman";mso-bidi-font-family:Arial;color:black;mso-themecolor:text1;
+mso-fareast-language:ES-MX'> </span><span class=SpellE><span style='font-size:
+12.0pt;font-family:"Century Gothic",sans-serif;mso-fareast-font-family:"Times New Roman";
+mso-bidi-font-family:Arial;color:black;mso-themecolor:text1;mso-fareast-language:
+ES-MX'>Inline</span></span><span style='font-size:12.0pt;font-family:"Century Gothic",sans-serif;
+mso-fareast-font-family:"Times New Roman";mso-bidi-font-family:Arial;
+color:black;mso-themecolor:text1;mso-fareast-language:ES-MX'>. Insertando las
+reglas directamente en los elementos usando la propiedad STYLE.<br>
+Por ejemplo:<br style='mso-special-character:line-break'>
+<![if !supportLineBreakNewLine]><br style='mso-special-character:line-break'>
+<![endif]></span><span style='font-size:12.0pt;font-family:"Century Gothic",sans-serif;
+mso-fareast-font-family:"Times New Roman";mso-bidi-font-family:"Times New Roman";
+color:black;mso-themecolor:text1;mso-fareast-language:ES-MX'><o:p></o:p></span></p>
+
+<div style='mso-element:para-border-div;border:solid #CCCCCC 1.0pt;mso-border-alt:
+solid #CCCCCC .75pt;padding:8.0pt 8.0pt 8.0pt 8.0pt;background:white'>
+
+<p class=MsoNormal style='margin-top:9.0pt;margin-right:0cm;margin-bottom:7.5pt;
+margin-left:0cm;text-align:justify;line-height:16.8pt;tab-stops:45.8pt 91.6pt 137.4pt 183.2pt 229.0pt 274.8pt 320.6pt 366.4pt 412.2pt 458.0pt 503.8pt 549.6pt 595.4pt 641.2pt 687.0pt 732.8pt;
+background:white;word-break:break-all;border:none;mso-border-alt:solid #CCCCCC .75pt;
+padding:0cm;mso-padding-alt:8.0pt 8.0pt 8.0pt 8.0pt'><b><span style='font-size:
+12.0pt;font-family:"Century Gothic",sans-serif;mso-fareast-font-family:"Times New Roman";
+mso-bidi-font-family:"Courier New";color:black;mso-themecolor:text1;mso-fareast-language:
+ES-MX'>Mi casa es de color &lt;<span class=SpellE>span</span> <span
+class=SpellE>style</span>=&quot;color: #2196f3;&quot;&gt;azul&lt;/<span
+class=SpellE>span</span>&gt;.<o:p></o:p></span></b></p>
+
+</div>
+
+<p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;text-align:
+justify;line-height:normal'><span style='font-size:12.0pt;font-family:"Century Gothic",sans-serif;
+mso-fareast-font-family:"Times New Roman";mso-bidi-font-family:Arial;
+color:black;mso-themecolor:text1;mso-fareast-language:ES-MX'>Esta técnica no es
+recomendada en la web moderna.</span><span style='font-size:12.0pt;font-family:
+"Century Gothic",sans-serif;mso-fareast-font-family:"Times New Roman";
+mso-bidi-font-family:"Times New Roman";color:black;mso-themecolor:text1;
+mso-fareast-language:ES-MX'><o:p></o:p></span></p>
+
+<div class=MsoNormal style='margin-top:12.0pt;margin-right:0cm;margin-bottom:
+12.0pt;margin-left:0cm;line-height:normal'><span style='font-size:12.0pt;
+font-family:"Century Gothic",sans-serif;mso-fareast-font-family:"Times New Roman";
+mso-bidi-font-family:"Times New Roman";color:black;mso-themecolor:text1;
+mso-fareast-language:ES-MX'>
+
+<hr size=2 width=301 style='width:225.7pt' noshade style='color:#333333'
+align=left>
+
+</span></div>
+
+<p class=MsoNormal style='margin-top:12.0pt;margin-right:0cm;margin-bottom:
+12.0pt;margin-left:0cm;text-align:justify;line-height:normal'><b
+style='mso-bidi-font-weight:normal'><span style='font-size:18.0pt;mso-bidi-font-size:
+12.0pt;font-family:"Century Gothic",sans-serif;mso-fareast-font-family:"Times New Roman";
+mso-bidi-font-family:Arial;color:black;mso-themecolor:text1;mso-fareast-language:
+ES-MX'>2- </span></b><span style='font-size:12.0pt;font-family:"Century Gothic",sans-serif;
+mso-fareast-font-family:"Times New Roman";mso-bidi-font-family:Arial;
+color:black;mso-themecolor:text1;mso-fareast-language:ES-MX'>Una hoja de estilo
+interna, incluyendo las reglas dentro de un script &lt;<span class=SpellE>style</span>&gt;&lt;/<span
+class=SpellE>style</span>&gt;, situado en el área del HEAD de la página, de la
+siguiente forma:<br style='mso-special-character:line-break'>
+<![if !supportLineBreakNewLine]><br style='mso-special-character:line-break'>
+<![endif]></span><span style='font-size:12.0pt;font-family:"Century Gothic",sans-serif;
+mso-fareast-font-family:"Times New Roman";mso-bidi-font-family:"Times New Roman";
+color:black;mso-themecolor:text1;mso-fareast-language:ES-MX'><o:p></o:p></span></p>
+
+<div style='mso-element:para-border-div;border:solid #CCCCCC 1.0pt;mso-border-alt:
+solid #CCCCCC .75pt;padding:8.0pt 8.0pt 8.0pt 8.0pt;background:white'>
+
+<p class=MsoNormal style='margin-top:9.0pt;margin-right:0cm;margin-bottom:7.5pt;
+margin-left:0cm;text-align:justify;line-height:16.8pt;tab-stops:45.8pt 91.6pt 137.4pt 183.2pt 229.0pt 274.8pt 320.6pt 366.4pt 412.2pt 458.0pt 503.8pt 549.6pt 595.4pt 641.2pt 687.0pt 732.8pt;
+background:white;word-break:break-all;border:none;mso-border-alt:solid #CCCCCC .75pt;
+padding:0cm;mso-padding-alt:8.0pt 8.0pt 8.0pt 8.0pt'><b><span lang=EN-US
+style='font-size:12.0pt;font-family:"Century Gothic",sans-serif;mso-fareast-font-family:
+"Times New Roman";mso-bidi-font-family:"Courier New";color:black;mso-themecolor:
+text1;mso-ansi-language:EN-US;mso-fareast-language:ES-MX'>&lt;style&gt;<o:p></o:p></span></b></p>
+
+<p class=MsoNormal style='margin-top:9.0pt;margin-right:0cm;margin-bottom:7.5pt;
+margin-left:0cm;text-align:justify;line-height:16.8pt;tab-stops:45.8pt 91.6pt 137.4pt 183.2pt 229.0pt 274.8pt 320.6pt 366.4pt 412.2pt 458.0pt 503.8pt 549.6pt 595.4pt 641.2pt 687.0pt 732.8pt;
+background:white;word-break:break-all;border:none;mso-border-alt:solid #CCCCCC .75pt;
+padding:0cm;mso-padding-alt:8.0pt 8.0pt 8.0pt 8.0pt'><span class=GramE><b><span
+lang=EN-US style='font-size:12.0pt;font-family:"Century Gothic",sans-serif;
+mso-fareast-font-family:"Times New Roman";mso-bidi-font-family:"Courier New";
+color:black;mso-themecolor:text1;mso-ansi-language:EN-US;mso-fareast-language:
+ES-MX'>blue{</span></b></span><b><span lang=EN-US style='font-size:12.0pt;
+font-family:"Century Gothic",sans-serif;mso-fareast-font-family:"Times New Roman";
+mso-bidi-font-family:"Courier New";color:black;mso-themecolor:text1;mso-ansi-language:
+EN-US;mso-fareast-language:ES-MX'><o:p></o:p></span></b></p>
+
+<p class=MsoNormal style='margin-top:9.0pt;margin-right:0cm;margin-bottom:7.5pt;
+margin-left:0cm;text-align:justify;line-height:16.8pt;tab-stops:45.8pt 91.6pt 137.4pt 183.2pt 229.0pt 274.8pt 320.6pt 366.4pt 412.2pt 458.0pt 503.8pt 549.6pt 595.4pt 641.2pt 687.0pt 732.8pt;
+background:white;word-break:break-all;border:none;mso-border-alt:solid #CCCCCC .75pt;
+padding:0cm;mso-padding-alt:8.0pt 8.0pt 8.0pt 8.0pt'><b><span lang=EN-US
+style='font-size:12.0pt;font-family:"Century Gothic",sans-serif;mso-fareast-font-family:
+"Times New Roman";mso-bidi-font-family:"Courier New";color:black;mso-themecolor:
+text1;mso-ansi-language:EN-US;mso-fareast-language:ES-MX'><span
+style='mso-spacerun:yes'>  </span>color: #2196f3;<o:p></o:p></span></b></p>
+
+<p class=MsoNormal style='margin-top:9.0pt;margin-right:0cm;margin-bottom:7.5pt;
+margin-left:0cm;text-align:justify;line-height:16.8pt;tab-stops:45.8pt 91.6pt 137.4pt 183.2pt 229.0pt 274.8pt 320.6pt 366.4pt 412.2pt 458.0pt 503.8pt 549.6pt 595.4pt 641.2pt 687.0pt 732.8pt;
+background:white;word-break:break-all;border:none;mso-border-alt:solid #CCCCCC .75pt;
+padding:0cm;mso-padding-alt:8.0pt 8.0pt 8.0pt 8.0pt'><b><span lang=EN-US
+style='font-size:12.0pt;font-family:"Century Gothic",sans-serif;mso-fareast-font-family:
+"Times New Roman";mso-bidi-font-family:"Courier New";color:black;mso-themecolor:
+text1;mso-ansi-language:EN-US;mso-fareast-language:ES-MX'>}<o:p></o:p></span></b></p>
+
+<p class=MsoNormal style='margin-top:9.0pt;margin-right:0cm;margin-bottom:7.5pt;
+margin-left:0cm;text-align:justify;line-height:16.8pt;tab-stops:45.8pt 91.6pt 137.4pt 183.2pt 229.0pt 274.8pt 320.6pt 366.4pt 412.2pt 458.0pt 503.8pt 549.6pt 595.4pt 641.2pt 687.0pt 732.8pt;
+background:white;word-break:break-all;border:none;mso-border-alt:solid #CCCCCC .75pt;
+padding:0cm;mso-padding-alt:8.0pt 8.0pt 8.0pt 8.0pt'><b><span lang=EN-US
+style='font-size:12.0pt;font-family:"Century Gothic",sans-serif;mso-fareast-font-family:
+"Times New Roman";mso-bidi-font-family:"Courier New";color:black;mso-themecolor:
+text1;mso-ansi-language:EN-US;mso-fareast-language:ES-MX'>&lt;/style&gt;<o:p></o:p></span></b></p>
+
+</div>
+
+<p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;text-align:
+justify;line-height:normal'><b style='mso-bidi-font-weight:normal'><span
+style='font-size:18.0pt;mso-bidi-font-size:12.0pt;font-family:"Century Gothic",sans-serif;
+mso-fareast-font-family:"Times New Roman";mso-bidi-font-family:Arial;
+color:black;mso-themecolor:text1;mso-fareast-language:ES-MX'>3-</span></b><span
+style='font-size:12.0pt;font-family:"Century Gothic",sans-serif;mso-fareast-font-family:
+"Times New Roman";mso-bidi-font-family:Arial;color:black;mso-themecolor:text1;
+mso-fareast-language:ES-MX'> Una hoja de estilo externa, enlazada a la página.
+Las reglas de almacenan en un archivo de texto con la extensión CSS, de la
+siguiente forma:<br style='mso-special-character:line-break'>
+<![if !supportLineBreakNewLine]><br style='mso-special-character:line-break'>
+<![endif]></span><span style='font-size:12.0pt;font-family:"Century Gothic",sans-serif;
+mso-fareast-font-family:"Times New Roman";mso-bidi-font-family:"Times New Roman";
+color:black;mso-themecolor:text1;mso-fareast-language:ES-MX'><o:p></o:p></span></p>
+
+<div style='mso-element:para-border-div;border:solid #CCCCCC 1.0pt;mso-border-alt:
+solid #CCCCCC .75pt;padding:8.0pt 8.0pt 8.0pt 8.0pt;background:white'>
+
+<p class=MsoNormal style='margin-top:9.0pt;margin-right:0cm;margin-bottom:7.5pt;
+margin-left:0cm;text-align:justify;line-height:16.8pt;tab-stops:45.8pt 91.6pt 137.4pt 183.2pt 229.0pt 274.8pt 320.6pt 366.4pt 412.2pt 458.0pt 503.8pt 549.6pt 595.4pt 641.2pt 687.0pt 732.8pt;
+background:white;word-break:break-all;border:none;mso-border-alt:solid #CCCCCC .75pt;
+padding:0cm;mso-padding-alt:8.0pt 8.0pt 8.0pt 8.0pt'><b><span lang=EN-US
+style='font-size:12.0pt;font-family:"Century Gothic",sans-serif;mso-fareast-font-family:
+"Times New Roman";mso-bidi-font-family:"Courier New";color:black;mso-themecolor:
+text1;mso-ansi-language:EN-US;mso-fareast-language:ES-MX'>&lt;link <span
+class=SpellE>href</span>=&quot;estilo.css&quot; <span class=SpellE>rel</span>=&quot;stylesheet&quot;
+type=&quot;text/<span class=SpellE>css</span>&quot;&gt;<o:p></o:p></span></b></p>
+
+</div>
+
+<p style='margin-top:7.5pt;margin-right:0cm;margin-bottom:11.25pt;margin-left:
+0cm;text-align:justify;background:white'><span style='font-family:"Century Gothic",sans-serif;
+mso-bidi-font-family:Arial;color:black;mso-themecolor:text1'>La ventaja de este
+último método es que permite aplicar las reglas a varias páginas al mismo
+tiempo y solo es necesario modificar el archivo ante cualquier actualización.<o:p></o:p></span></p>
+
+
+
+
+
+
+
+
+	<H1 style="color:#d39d17"><u> La estructura de la pagina web se basa en HTML </u> </H1>
+
+	<p>
+	El lenguaje de marcas de hipertexto, HTML o (HyperText Markup Language) se basa en el metalenguaje SGML (Standard Generalized Markup Language) y es el formato de los documentos de la World Wide Web. El World Wide Web Consortium (W3C) es la organización que desarrolla los estándares para normalizar el desarrollo y la expansión de la Web y la que publica las especificaciones relativas al lenguaje HTML.<br>
+	Las etiquetas HTML son fragmentos de texto rodeados por corchetes angulares < >, que tienen funciones y usos específicos y se utilizan para escribir código HTML.<br>
+	Las etiquetas o tags son la forma de escribir código HTML.<br>
+	En HTML existen etiquetas de apertura y etiquetas de cierre, tienen la forma: <code>&lt;etiqueta&gt; &lt;/etiqueta&gt;</code>. Donde <code>&lt;etiqueta&gt;</code> es la etiqueta de apertura y <code>&lt;/etiqueta&gt;</code> es la etiqueta de cierre indicada por la diagonal. HTML tiene definidas gran variedad de etiquetas para distintos usos.<br>
+	Aunque la mayoría de las etiquetas tienen su etiqueta de apertura y etiqueta de cierre, es importante aclarar que no todas las etiquetas tienen su correspondiente etiqueta de cierre.<br>
+	</p>
+	
+	<p>Algunos ejemplos de etiquetas son:</p>
+
+	<table style="width:20%;text-align:center;">
+	<caption>Etiquetas con etiqueta de cierre</caption>
+	<tr>
+	 <th>Apertura</th><th>Cierre</th>
+	</tr>
+	<tr>
+	 <td><code>&lt;html&gt;</code></td><td><code>&lt;/html&gt;</code></td>
+	</tr>
+	<tr>
+	 <td><code>&lt;head&gt;</code></td><td><code>&lt;/head&gt;</code></td>
+	</tr>
+	<tr>
+	 <td><code>&lt;body&gt;</code></td><td><code>&lt;/body&gt;</code></td>
+	</tr>
+	<tr>
+	 <td><code>&lt;p&gt;</code></td><td><code>&lt;/p&gt;</code></td>
+	</tr>
+	</table>
+	
+	<p>
+	La etiqueta de apertura y la de cierre son las misma con la única diferencia de la diagonal "/" , es necesario la etiqueta de cierre para limitar el campo de acción de la etiqueta, por ejemplo a etiqueta <code>&lt;p&gt;</code> nos indica el inicio de un párrafo de texto y una vez que se escribe la etiqueta de apertura el navegador tomará como párrafo todo el texto que se encuentre después de dicha etiqueta hasta toparse con la etiqueta de cierre <code>&lt;/p&gt;</code> y así con las demás etiquetas según la función de cada una, la mayoría de las etiquetas de HTML son etiquetas de este tipo.<br>
+	</p>
+	<table style="width:20%;text-align:center;">
+<caption>Etiquetas sin etiqueta de cierre</caption>
+<tr>
+ <th>Etiqueta</th>
+</tr>
+<tr>
+ <td><code>&lt;br&gt;</code></td>
+</tr>
+<tr>
+ <td><code>&lt;img&gt;</code></td>
+</tr>
+<tr>
+ <td><code>&lt;hr&gt;</code></td>
+</tr>
+<tr>
+ <td><code>&lt;input&gt;</code></td>
+</tr>
+</table>
+
+Todos los documentos <strong>Html</strong> tienen la estructura que se muesta a continuación, aunque la etiqueta </font><font color="#0000FF" size="3">&lt;body&gt;</font><font> puede ser sustituida por </font><font color="#0000FF">&lt;frameset&gt; </font><font color="#000000">para un tipo de páginas que dividen la ventana del navegador en varios cuadros (frames).</font></p> <pre><font color="#0000FF">
+&lt;HTML&gt; 
+	&lt;HEAD&gt;
+        &lt;TITLE&gt;Título de la página&lt;/TITLE&gt;
+        ...
+    &lt;/HEAD&gt;
+
+    &lt;BODY&gt;
+        Aquí iría el contenido de la página
+    &lt;/BODY&gt;
+&lt;/HTML&gt;</font></pre>
+	
+	<h2 style=" color: #d39d17; text-align: justify; margin-top: 20px;"  ><u> Detalles de la sintaxis de XHTML </u><br></h2> 
+	<p>
+	Sintaxis XHTML es muy similar al HTML sintaxis y casi todos los elementos HTML en XHTML válido. Pero cuando se escribe un documento XHTML tienes que pagar un poco más de atención para hacer que su documento HTML a XHTML compatible.<br>
+	Aquí están los puntos importantes para recordar cuando escribir un nuevo documento XHTML o convertir los documento HTML a XHTML documento:<br>
+<ul class="list">
+<li><p>Se necesita para escribir una declaración DOCTYPE en el inicio del documento XHTML.</p></li>
+<li><p>Usted debe escribir todas las etiquetas y atributos XHTML sólo en minúsculas.</p></li>
+<li><p>Tiene que cerrar todas las etiquetas XHTML correctamente.</p></li>
+<li><p>Debe consignar todos los valores de atributo.</p></li>
+<li><p>Atributo minimización está prohibido.</p></li>
+<li><p>El<b> id</b> atributo sustituye el<b></b> atributo name.</p></li>
+<li><p>El<b> idioma</b> atributo de la<b></b> etiqueta script está en desuso.</p></li>
+<li><p>Usted necesidad de anidar todas las etiquetas correctamente.</p></li>
+</ul>
+	</p>
+
+	<h2 style=" color: #d39d17; text-align: justify; margin-top: 20px;"  ><u> Doctype indica al navegador qué debe esperar </u><br></h2>
+
+	<p>
+	Esta declaración debe ser la primera línea de nuestro documento y es necesaria para decirle al navegador qué versión de HTML es la que se usa en la página. Si no se hace, el navegador procesara la página en modo Quirks (modo de compatibilidad) pudiendo no interpretar correctamente el código de la página. <br>
+	</p>
+	<h2 style=" color: #d39d17; text-align: justify; margin-top: 20px;"  ><u> El W3C y la validación de la página </u><br></h2>
+	<p>
+	La validación W3C no es más que un servicio de verificación estándar para las hojas de estilo (CSS) de una web. Ahora bien, ¿Qué son las hojas de estilo de una web (Cascading Style Sheets)? quizá te sonará un poco a chino, por eso creo que vale la pena hacer una pequeña explicación antes de entrar en materia.<br>
+	Las Hojas de estilo llamado muy comúnmente CSS es simplemente el lenguaje que rige y organiza el aspecto visual de una página web. Digamos que es el código que se utiliza para definir los colores, tipos de letras, tamaños, márgenes, ubicación de elementos, etc...  Pues bien la genialidad es este código es que funciona como una ventana aparte de la estructura general de la página web, de modo que todo el código que rige el aspecto visual de la web queda separado de todo el contenido de la web permitiendo manejar de manera mucho más sencilla y ágil sin comprometer otros aspectos de programación como lo sería núcleo.<br>
+	</p>
+
+	<h4 style="text-align: justify; margin-top: 20px;padding-right : 20px;background-color:rgba(115,145,199,0.5);"> Conclusion Erick Francisco Villa Carrillo 1735681<br><br>
+	La forma en la que se basa html es una forma muy sencilla de manejar y poder modificar para crear tus primeras paginas web, ademas existen validadores que te ayudan a evaluar tu pagina para ver si su codigo esta escrito correctamente y si tienes un error te lo hace saber para que lo puedas corregir esta herramienta es muy util para personas que no estan muy acostrumbradas ha trabajar con codigo.<br>
+
+	<h4 style="text-align: justify; margin-top: 20px;padding-right : 20px;background-color:rgba(115,145,199,0.5);"> Conclusion Jesús Jalil Romero Lara 1807390	<br><br>
+	He concluido que el XHTML es muy util para realizar cualquier actividad dicese basica o con poca dificultad, mas sin embargo el CSS es un muy buen complemento para agregar diseño y estilo a una pagina web, fue divertido y emocionante redescubrir el formato de XHTML y comparar sus similitudes con CSS, todo esto con el fin de aprender que hay mas de una manera para hacer una pagina web.
+	<br><br>
+	<h4 style="text-align: justify; margin-top: 20px;padding-right : 20px;background-color:rgba(115,145,199,0.5);"> Conclusion Andrés Arrazola y Meza 1884455<br><br>
+	yo a la conclusion que XHTML es demasiado bueno, ya que es una version mejorada del html, tambien llegamos a conocer las caracteristicas de html, asi poco a poco nos vamos adentrando en lo que es la creacion de paginas web.
+	
+	<h4 style="text-align: justify; margin-top: 20px;padding-right : 20px;background-color:rgba(115,145,199,0.5);"> Conclusion Sergio Manuel Zamarrón Álvarez 1652329<br><br>
+	Como conclusión al curso de Css vamos a exponer los pasos y algunos consejos para aplicar correctamente y de forma eficaz estilo a una página web:
+	Hay tres formas de aplicar css a una página web:<br><br>
+	En linea. Aunque está en desuso, puede utilizarse en caso de crear solamente una página y que esta contenga poco estilo insertado.<br>
+	Con estilo insertado en la cabecera del documento. Como en el anterior caso puede ser un método eficaz, cuando el sitio o página web tan solo contiene una o unas pocas páginas.<br>
+    Con una Hoja de estilo exterior al documento html. Este es el método más eficaz cuando el sitio posee muchas páginas a aplicar estilo.
+	
+	<h4 style="text-align: justify; margin-top: 20px;padding-right : 20px;background-color:rgba(115,145,199,0.5);"> Conclusion Gabriel Alejandro Garza Gallegos 1800790<br><br>
+	Aprender estos tipos de conceptos en HTML es muy importante ya que se pueden utilizar a medida que vas haciendo una pagina web ya sea para alguna practica que se tenga o tambien para cualquier pagina que se nos haya encargado
+	ademas de que el aprender a manejar correctamente el css y html es de suma importancia si es que uno se quiere dedicar al front end en desarrollo web.
+	
+	
+	
+	
+</BODY>
+
+</HTML>
