@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<HEAD>
+
+<TITLE> Practica 5 Uso de etiquetas. </TITLE>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<style>
+
+
+nav {
+background-color:#616;
+ height:140px;
+ font-family: MS Gothic;
+ font-size:140%;
+}
+p{
+font-size:140%;
+}
+
+</style>
+</HEAD>
+
+<BODY style="background-color:#ffffa2;">
+
+
+<hgroup>
+<h2>Practica 5.</h2>
+<h3>Elaborando una pagina web,con 10 etiquetas y elementos notables de HTML5, como video y audio importado directamente sin el uso de ningun PLUGIN externo. </h3>
+<br><hr>
+<h3>El uso de la etiqueta button.</h3>
+<input type="button" value="¿Da click aqui para ver mas información?"
+ onClick='alert("Mas información: https://docs.microsoft.com/es-es/previous-versions/msdn10/hh749023")'>
+</hgroup>
+<br><hr>
+<h3>El uso de la etiqueta nav, junto la etiqueta ancla a y la etiqueta href para el redireccionamiento de paginas web.</h3>
+<nav>
+	<ul>
+
+
+
+ <li><a href="https://verusregem.github.io./">Home</a></li>
+
+ <li><a href="https://verusregem.github.io/Prac1.html">Practica 1</a></li>
+ <li><a href="https://verusregem.github.io/Prac2.html">Practica 2</a></li>
+ <li><a href="https://verusregem.github.io/Prac3.html">Practica 3</a></li>
+ <li><a href="https://verusregem.github.io/Prac4.html">Practica 4</a></li>
+ 	<li><a href="https://www.facebook.com/groups/prograweb/">Facebook Group
+ </a></li>
+</nav>
+<br><hr>
+<aside>
+<h1>Explicacion del NAV usando ASIDE </h1>
+<p> En el ejemplo anterior,pudimos ver como sirve la etiqueta nav junto con links de redireccionamiento hacia las practicas pasadas asi tambien del grupo de la materia de facebook para ejemplificar uno de los usos de nav, cabe recalcar que este parrafo esta hecho gracias a la ayuda de la etiqueta aside.</p>
+</aside>
+<br><hr>
+<h3>Uso de la etiqueta figure y figcaption</h3>
+<figure style="float: right">
+  <img src="../../../images/animalmar.png">
+  <figcaption>Imagen alusiva a un animal marino</figcaption>
+</figure>
+<p>Se denominan animales acuáticos a los animales que viven en el agua durante toda o la mayor parte de su vida. El término se aplica tanto a los que viven en agua dulce como en salada. .</p>
+<p>Los animales acuáticos que respiran a través de branquias hacen el intercambio de gases con el agua. La cantidad de oxígeno que contiene el agua es menor que la del aire, por lo que estos animales adaptados a estas condiciones necesitan sistemas muy eficaces capaces de extraer el oxígeno del agua. .</p>
+<p>Los animales acuáticos están distribuidos por toda la escala zoológica siendo casi exclusivamente acuáticos, los de grupos inferiores (protozoos), así como los espongiarios, los pólipos y los equinodermos, gran número de gusanos, la mayor parte de los moluscos y todos los braquiados y tunicados..</p>
+<br><hr>
+<h3> Ahora 2 frases usando q y blockquote para que se observe la diferencia de las citas en HTML.</h3>
+  <h4>Usando q: Que sirve para agregar < > a una frase.</h6>
+		<p>Como dijo Benito Juarez <q>El respeto al derecho ajeno es la paz.</q></p>
+		<h3> Usando blockquote: Que lo pone formal y como en un libro respetable.</h5>
+		<p>A Great Motivational Quote :</p>  
+   <blockquote cite="https://www.brainyquote.com/authors/eleanor_roosevelt_143006"> </cite>
+    <p>  
+     With the new day comes,new strenght and new throughts  
+     </p>  
+   </blockquote>  
+<cite>Eleanor Roosevelt</cite><br>
+<br><hr>
+<h3> A continuacion anexe junto con la etiqueta audio una canción.</h3>
+<audio src=" pictures\clocks-coldplay.mp3" preload="none" controls></audio>
+<audio src="audio.ogg" autoplay loop></audio>
+<br><hr>
+<h3> A continuacion anexe junto con la etiqueta video, pues un video.</h3>
+<video src="video.webm" poster="presentacion.jpg" controls></video>
+<video src="video.mp4" autoplay muted loop></video>
+<br><hr>
+<footer>
+    <h4 style "text-align:left;">Copyright &copy; 2019 Equipo #2 Martes M5, Todos los derechos reservados.</p>
+  </footer>
+</BODY>
+
+</HTML>
