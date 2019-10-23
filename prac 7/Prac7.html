@@ -1,0 +1,59 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="de">
+ <head>
+ <link rel="stylsheet" type="text/css" href="CSS/MisEstilos.css" />
+  <title>Drag&amp;Drop-Spiel</title>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  <link rel="stylesheet" type="text/css" href="style.css"/>
+  <script type="text/javascript" src="js/prototype.js"></script>
+  <script type="text/javascript" src="js/scriptaculous.js"></script>
+  <script type="text/javascript" src="js/builder.js"></script>
+  <script type="text/javascript" src="js/effects.js"></script>
+  <script type="text/javascript" src="js/dragdrop.js"></script>
+  <script type="text/javascript" src="js/controls.js"></script>
+  <script type="text/javascript" src="js/slider.js"></script>
+  <script type="text/javascript" src="js/game.js"></script>
+ </head>
+
+ <body>
+  <tr>
+    <td width="89"><a href="index.html"><center>Principal</center></a></td>
+  </tr>
+</table>
+ <table align="right" width="99" border="1">
+  <tr>
+    <td width="89"><a href="nohayactividad.html"><center>Página 8</center></a></td>
+  </tr>
+</table>
+<table align="left" width="99" border="1">
+  <tr>
+    <td width="89"><a href="Prac4.html"><center>Página 6</center></a></td>
+  </tr>
+</table>
+  <h1><center>Practica 7</center>	</h1>
+  <h2>Juego de drag and drop</h2>
+  <div id="dragdropspiel">
+   <p id="anleitung">El juego consiste en el cuadro de la derecha seleccionar una ciudad y ligarla con que paises es, si fallas te quita puntos si aciertas ganas puntos</p>
+   <div id="laender">
+    <h2>Pais</h2>
+    <ul id="laenderliste">
+     <li class="" style="position: relative;" id="D">Alemania</li>
+     <li class="" style="position: relative;" id="F">Francia</li>
+     <li style="position: relative;" id="GB">Gran Bretaña</li>
+     <li style="position: relative;" id="USA">USA</li>
+    </ul>
+   </div>
+   <div id="staedte">
+    <h2>Estado</h2>
+    <ul id="staedteliste">
+     <li class="draggable" style="position: relative; z-index: 0; left: 0px; top: 0px; opacity: 0.999999;" id="H">Hannover</li>
+     <li class="draggable" style="position: relative;" id="L">Londres</li>
+     <li class="draggable" style="position: relative;" id="NY">New York</li>
+     <li class="draggable" style="position: relative;" id="P">Paris</li>
+    </ul>
+   </div>
+   <p id="punktestand"></p>
+  </div>
+
+ </body>
+</html>
